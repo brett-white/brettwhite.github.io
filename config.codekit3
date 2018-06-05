@@ -23,26 +23,6 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/global-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/global.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/global-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/images\/award_awwwards.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -169,12 +149,52 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/scripts\/global-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/global-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/scripts\/global.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/global-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sitemap.xml",
 		"oF": 0
+		},
+	"\/styles\/global-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/global-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/styles\/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/global-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [
