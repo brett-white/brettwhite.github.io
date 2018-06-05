@@ -129,7 +129,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   header figure {
     overflow: hidden;
-    margin-bottom: -8%;
+    margin: 0 -8% -8%;
   }
   header figure img {
     max-width: 480px;
@@ -292,7 +292,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       bottom: 0;
       left: 0;
       right: 50%;
-      margin-bottom: 0;
+      margin: 0 0 -4%;
     }
     header figure img {
       max-width: 720px;
