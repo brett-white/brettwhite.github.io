@@ -104,6 +104,50 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/icon-114x114.png": {
+		"ft": 32768,
+		"iS": 365,
+		"oA": 0,
+		"oAP": "\/images\/icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-144.png": {
+		"ft": 32768,
+		"iS": 381,
+		"oA": 0,
+		"oAP": "\/images\/icon-144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-57x57.png": {
+		"ft": 32768,
+		"iS": 220,
+		"oA": 0,
+		"oAP": "\/images\/icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-72x72.png": {
+		"ft": 32768,
+		"iS": 258,
+		"oA": 0,
+		"oAP": "\/images\/icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo_pexcil.svg": {
 		"ft": 2097152,
 		"miP": 0,
