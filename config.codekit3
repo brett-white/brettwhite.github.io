@@ -9,6 +9,204 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/_EDIT\/b+w.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/b+w.sketch",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-2.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-2.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-2.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-2.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-3.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-3.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-3.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-3.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-4.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-4.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-4.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-4.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-5.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-5.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-5.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-5.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-6.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-6.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-6.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-6.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-7.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-7.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-7.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-7.swf",
+		"oF": 0
+		},
+	"\/_EDIT\/BW-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_EDIT\/BW.fla": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW.fla",
+		"oF": 0
+		},
+	"\/_EDIT\/BW.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW.html",
+		"oF": 0
+		},
+	"\/_EDIT\/BW.iconsproj": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW.iconsproj",
+		"oF": 0
+		},
+	"\/_EDIT\/BW.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_EDIT\/BW_512.png": {
+		"ft": 32768,
+		"iS": 16141,
+		"oA": 0,
+		"oAP": "\/_EDIT\/BW_512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_EDIT\/BW_H.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_EDIT\/BW_H.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_EDIT\/BW_V.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_EDIT\/BW_V.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_EDIT\/index.1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/index.1.html",
+		"oF": 0
+		},
+	"\/_EDIT\/index_colours.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/index_colours.html",
+		"oF": 0
+		},
+	"\/_EDIT\/index_gradient.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/index_gradient.html",
+		"oF": 0
+		},
+	"\/_EDIT\/index_logo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/index_logo.html",
+		"oF": 0
+		},
+	"\/_EDIT\/linkedin-header-zapper.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/linkedin-header-zapper.psd",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
