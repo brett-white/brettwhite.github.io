@@ -84,6 +84,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   ul li {
     margin-left: 24px;
   }
+  a {
+    font-weight: bold;
+  }
   .container {
     max-width: 1200px;
     margin: 0 auto;
