@@ -9,11 +9,118 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep",
+		"oF": 0
+		},
+	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep",
+		"oF": 0
+		},
+	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep",
+		"oF": 0
+		},
+	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep",
+		"oF": 0
+		},
 	"\/_EDIT\/b+w.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_EDIT\/b+w.sketch",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-dribbble.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-dribbble.aep",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-dribbble.jpg": {
+		"ft": 16384,
+		"iS": 54074,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-dribbble.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_EDIT\/brettandwhite-recording-dribbble.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-recording-dribbble.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-recording.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-recording.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-screenshot.png": {
+		"ft": 32768,
+		"iS": 887242,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_EDIT\/brettandwhite-type-800x600-fast.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600-fast.psd",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-type-800x600.gif": {
+		"ft": 4194304,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_EDIT\/brettandwhite-type-800x600.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-type-800x600.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600.psd",
 		"oF": 0
 		},
 	"\/_EDIT\/BW-2.fla": {
