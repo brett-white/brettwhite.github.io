@@ -242,7 +242,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border: solid 2px white;
   }
   .copyright {
-    margin-top: 160px;
+    margin-top: 96px;
     font-size: 12px;
   }
   #accolades {
@@ -327,6 +327,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     footer .social svg {
       width: 32px;
       height: auto;
+    }
+    .copyright {
+      margin-top: 160px;
     }
   }
   @media only screen and (min-width: 1440px) {
