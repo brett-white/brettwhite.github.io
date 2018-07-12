@@ -44,6 +44,13 @@
 		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep",
 		"oF": 0
 		},
+	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep",
+		"oF": 0
+		},
 	"\/_EDIT\/b+w.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -56,6 +63,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_EDIT\/brettandwhite-1200x900.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-800x600-trimmed.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-800x600-trimmed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mp4",
 		"oF": 0
 		},
 	"\/_EDIT\/brettandwhite-dribbble.aep": {
@@ -108,6 +129,14 @@
 		"oAP": "\/_EDIT\/brettandwhite-type-800x600-fast.psd",
 		"oF": 0
 		},
+	"\/_EDIT\/brettandwhite-type-800x600-trimmed.gif": {
+		"ft": 4194304,
+		"iS": 12362995,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600-trimmed.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_EDIT\/brettandwhite-type-800x600.gif": {
 		"ft": 4194304,
 		"iS": 0,
@@ -121,6 +150,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mov",
+		"oF": 0
+		},
+	"\/_EDIT\/brettandwhite-type-800x600.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mp4",
 		"oF": 0
 		},
 	"\/_EDIT\/brettandwhite-type-800x600.psd": {
