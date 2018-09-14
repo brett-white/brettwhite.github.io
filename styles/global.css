@@ -219,13 +219,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     clear: both;
   }
   footer .container {
-    text-align: center;
+    padding-top: 0;
     padding-bottom: 48px;
   }
   footer .social {
-    float: none;
-    margin: 0 auto 24px;
-    text-align: center;
+    margin-left: -16px;
   }
   footer .social li {
     display: inline-block;
@@ -242,7 +240,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border: solid 2px white;
   }
   .copyright {
-    margin-top: 96px;
+    margin-top: 24px;
     font-size: 12px;
   }
   #accolades {
@@ -263,7 +261,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       background-position: 8% bottom;
     }
     .container {
-      padding: 160px 96px;
+      padding: 96px;
     }
     .row {
       display: flex;
@@ -317,6 +315,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding: 24px;
       margin: 0;
     }
+    footer .social {
+      margin-left: -24px;
+    }
     header .social li {
       margin-right: 0;
       margin-left: 16px;
@@ -324,13 +325,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     footer .social li {
       margin: 0 16px;
     }
-    footer .social svg {
+    /* footer .social svg {
       width: 32px;
       height: auto;
-    }
-    .copyright {
-      margin-top: 160px;
-    }
+    } */
+    /* .copyright {
+      margin-top: 24px;
+    } */
   }
   @media only screen and (min-width: 1440px) {
     header {
