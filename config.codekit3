@@ -357,343 +357,343 @@
 		"oAP": "\/_EDIT\/linkedin-header-zapper.psd",
 		"oF": 0
 		},
-	"\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/CNAME",
-		"oF": 0
-		},
-	"\/demo\/assets\/images\/bg-books-blur.jpg": {
+	"\/cannon\/assets\/images\/bg-books-blur.jpg": {
 		"ft": 16384,
 		"iS": 808715,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-books-blur.jpg",
+		"oAP": "\/cannon\/assets\/images\/bg-books-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-books.jpg": {
+	"\/cannon\/assets\/images\/bg-books.jpg": {
 		"ft": 16384,
 		"iS": 1588957,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-books.jpg",
+		"oAP": "\/cannon\/assets\/images\/bg-books.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-office-blur.jpg": {
+	"\/cannon\/assets\/images\/bg-office-blur.jpg": {
 		"ft": 16384,
 		"iS": 589565,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-office-blur.jpg",
+		"oAP": "\/cannon\/assets\/images\/bg-office-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-office.jpg": {
+	"\/cannon\/assets\/images\/bg-office.jpg": {
 		"ft": 16384,
 		"iS": 1782175,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-office.jpg",
+		"oAP": "\/cannon\/assets\/images\/bg-office.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-icon-watermark.png": {
+	"\/cannon\/assets\/images\/cannon-icon-watermark.png": {
 		"ft": 32768,
 		"iS": 147853,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-icon-watermark.png",
+		"oAP": "\/cannon\/assets\/images\/cannon-icon-watermark.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-icon.png": {
+	"\/cannon\/assets\/images\/cannon-icon.png": {
 		"ft": 32768,
 		"iS": 14527,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-icon.png",
+		"oAP": "\/cannon\/assets\/images\/cannon-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-logo-large.png": {
+	"\/cannon\/assets\/images\/cannon-logo-large.png": {
 		"ft": 32768,
 		"iS": 516255,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-logo-large.png",
+		"oAP": "\/cannon\/assets\/images\/cannon-logo-large.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-logo.png": {
+	"\/cannon\/assets\/images\/cannon-logo.png": {
 		"ft": 32768,
 		"iS": 56714,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-logo.png",
+		"oAP": "\/cannon\/assets\/images\/cannon-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/chevron-down.svg": {
+	"\/cannon\/assets\/images\/chevron-down.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/demo\/assets\/images\/chevron-down.svg",
+		"oAP": "\/cannon\/assets\/images\/chevron-down.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/demo\/assets\/images\/profile-adrian-saville.webp": {
+	"\/cannon\/assets\/images\/profile-adrian-saville.webp": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/profile-adrian-saville.webp",
+		"oAP": "\/cannon\/assets\/images\/profile-adrian-saville.webp",
 		"oF": 0
 		},
-	"\/demo\/assets\/scripts\/ajax-load.js": {
+	"\/cannon\/assets\/scripts\/ajax-load.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/ajax-load-min.js",
+		"oAP": "\/cannon\/assets\/scripts\/ajax-load-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/anchor-scroll.js": {
+	"\/cannon\/assets\/scripts\/anchor-scroll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/anchor-scroll-min.js",
+		"oAP": "\/cannon\/assets\/scripts\/anchor-scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/parallax.html": {
+	"\/cannon\/assets\/scripts\/parallax.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/parallax.html",
+		"oAP": "\/cannon\/assets\/scripts\/parallax.html",
 		"oF": 0
 		},
-	"\/demo\/assets\/scripts\/scroll-min.js": {
+	"\/cannon\/assets\/scripts\/scroll-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scroll-min-min.js",
+		"oAP": "\/cannon\/assets\/scripts\/scroll-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/scroll.js": {
+	"\/cannon\/assets\/scripts\/scroll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scroll-min.js",
+		"oAP": "\/cannon\/assets\/scripts\/scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/scrollpoints.js": {
+	"\/cannon\/assets\/scripts\/scrollpoints.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scrollpoints-min.js",
+		"oAP": "\/cannon\/assets\/scripts\/scrollpoints-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/styles\/global-min.css": {
+	"\/cannon\/assets\/styles\/global-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/global-min-min.css",
+		"oAP": "\/cannon\/assets\/styles\/global-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/global.css": {
+	"\/cannon\/assets\/styles\/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/global-min.css",
+		"oAP": "\/cannon\/assets\/styles\/global-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-graph-min.css": {
+	"\/cannon\/assets\/styles\/investments-graph-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-graph-min-min.css",
+		"oAP": "\/cannon\/assets\/styles\/investments-graph-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-graph.css": {
+	"\/cannon\/assets\/styles\/investments-graph.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-graph-min.css",
+		"oAP": "\/cannon\/assets\/styles\/investments-graph-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-min.css": {
+	"\/cannon\/assets\/styles\/investments-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-min-min.css",
+		"oAP": "\/cannon\/assets\/styles\/investments-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments.css": {
+	"\/cannon\/assets\/styles\/investments.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-min.css",
+		"oAP": "\/cannon\/assets\/styles\/investments-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/navbar-min.css": {
+	"\/cannon\/assets\/styles\/navbar-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/navbar-min-min.css",
+		"oAP": "\/cannon\/assets\/styles\/navbar-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/navbar.css": {
+	"\/cannon\/assets\/styles\/navbar.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/navbar-min.css",
+		"oAP": "\/cannon\/assets\/styles\/navbar-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/team-min.css": {
+	"\/cannon\/assets\/styles\/team-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/team-min-min.css",
+		"oAP": "\/cannon\/assets\/styles\/team-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/team.css": {
+	"\/cannon\/assets\/styles\/team.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/team-min.css",
+		"oAP": "\/cannon\/assets\/styles\/team-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/includes\/footer.php": {
+	"\/cannon\/includes\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/footer.php",
+		"oAP": "\/cannon\/includes\/footer.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/investment-card.php": {
+	"\/cannon\/includes\/investment-card.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/investment-card.php",
+		"oAP": "\/cannon\/includes\/investment-card.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/investments-graph.php": {
+	"\/cannon\/includes\/investments-graph.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/investments-graph.php",
+		"oAP": "\/cannon\/includes\/investments-graph.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/navbar.php": {
+	"\/cannon\/includes\/navbar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/navbar.php",
+		"oAP": "\/cannon\/includes\/navbar.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/scripts.php": {
+	"\/cannon\/includes\/scripts.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/scripts.php",
+		"oAP": "\/cannon\/includes\/scripts.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/styles.php": {
+	"\/cannon\/includes\/styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/styles.php",
+		"oAP": "\/cannon\/includes\/styles.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/team-card.php": {
+	"\/cannon\/includes\/team-card.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/team-card.php",
+		"oAP": "\/cannon\/includes\/team-card.php",
 		"oF": 0
 		},
-	"\/demo\/index.php": {
+	"\/cannon\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/index.php",
+		"oAP": "\/cannon\/index.php",
 		"oF": 0
 		},
-	"\/demo\/investments.php": {
+	"\/cannon\/investments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/investments.php",
+		"oAP": "\/cannon\/investments.php",
 		"oF": 0
 		},
-	"\/demo\/team.php": {
+	"\/cannon\/team.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/team.php",
+		"oAP": "\/cannon\/team.php",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/favicon.ico": {
