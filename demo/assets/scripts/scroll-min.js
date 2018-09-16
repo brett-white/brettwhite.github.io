@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=0;$(window).scroll(function(){o=$(window).scrollTop(),$(".counter").html(o),o>=100?$("#navbar").addClass("is-scrolled"):o<100&&$("#navbar").removeClass("is-scrolled")})});

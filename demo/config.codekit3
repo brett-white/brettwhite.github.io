@@ -4,921 +4,342 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0DEF308F-54CE-48D8-9870-60B825A85415"
+		"uuidString": "912BF9BF-E118-4016-8CAA-4ACAEB345C5D"
 		}
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/b+w.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/b+w.sketch",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-1200x900.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-1200x900.mov",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-800x600-trimmed.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mov",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-800x600-trimmed.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mp4",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-dribbble.aep": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-dribbble.aep",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-dribbble.jpg": {
-		"ft": 16384,
-		"iS": 54074,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-dribbble.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_EDIT\/brettandwhite-recording-dribbble.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-recording-dribbble.mov",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-recording.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-recording.mov",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-screenshot.png": {
-		"ft": 32768,
-		"iS": 887242,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_EDIT\/brettandwhite-type-800x600-fast.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600-fast.psd",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-type-800x600-trimmed.gif": {
-		"ft": 4194304,
-		"iS": 12362995,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600-trimmed.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_EDIT\/brettandwhite-type-800x600.gif": {
-		"ft": 4194304,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.gif",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_EDIT\/brettandwhite-type-800x600.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mov",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-type-800x600.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mp4",
-		"oF": 0
-		},
-	"\/_EDIT\/brettandwhite-type-800x600.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.psd",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-2.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-2.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-2.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-2.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-3.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-3.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-3.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-3.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-4.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-4.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-4.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-4.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-5.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-5.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-5.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-5.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-6.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-6.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-6.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-6.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-7.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-7.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-7.swf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-7.swf",
-		"oF": 0
-		},
-	"\/_EDIT\/BW-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_EDIT\/BW.fla": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW.fla",
-		"oF": 0
-		},
-	"\/_EDIT\/BW.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW.html",
-		"oF": 0
-		},
-	"\/_EDIT\/BW.iconsproj": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW.iconsproj",
-		"oF": 0
-		},
-	"\/_EDIT\/BW.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_EDIT\/BW_512.png": {
-		"ft": 32768,
-		"iS": 16141,
-		"oA": 0,
-		"oAP": "\/_EDIT\/BW_512.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_EDIT\/BW_H.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_EDIT\/BW_H.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_EDIT\/BW_V.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_EDIT\/BW_V.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_EDIT\/index.1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/index.1.html",
-		"oF": 0
-		},
-	"\/_EDIT\/index_colours.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/index_colours.html",
-		"oF": 0
-		},
-	"\/_EDIT\/index_gradient.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/index_gradient.html",
-		"oF": 0
-		},
-	"\/_EDIT\/index_logo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/index_logo.html",
-		"oF": 0
-		},
-	"\/_EDIT\/linkedin-header-zapper.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_EDIT\/linkedin-header-zapper.psd",
-		"oF": 0
-		},
-	"\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/CNAME",
-		"oF": 0
-		},
-	"\/demo\/assets\/images\/bg-books-blur.jpg": {
+	"\/assets\/images\/bg-books-blur.jpg": {
 		"ft": 16384,
 		"iS": 808715,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-books-blur.jpg",
+		"oAP": "\/assets\/images\/bg-books-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-books.jpg": {
+	"\/assets\/images\/bg-books.jpg": {
 		"ft": 16384,
 		"iS": 1588957,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-books.jpg",
+		"oAP": "\/assets\/images\/bg-books.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-office-blur.jpg": {
+	"\/assets\/images\/bg-office-blur.jpg": {
 		"ft": 16384,
-		"iS": 589565,
+		"iS": 433842,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-office-blur.jpg",
+		"oAP": "\/assets\/images\/bg-office-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/bg-office.jpg": {
+	"\/assets\/images\/bg-office.jpg": {
 		"ft": 16384,
-		"iS": 1782175,
+		"iS": 893985,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/bg-office.jpg",
+		"oAP": "\/assets\/images\/bg-office.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-icon-watermark.png": {
+	"\/assets\/images\/cannon-icon-watermark.png": {
 		"ft": 32768,
 		"iS": 147853,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-icon-watermark.png",
+		"oAP": "\/assets\/images\/cannon-icon-watermark.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-icon.png": {
+	"\/assets\/images\/cannon-icon.png": {
 		"ft": 32768,
 		"iS": 14527,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-icon.png",
+		"oAP": "\/assets\/images\/cannon-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-logo-large.png": {
+	"\/assets\/images\/cannon-logo-large.png": {
 		"ft": 32768,
 		"iS": 516255,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-logo-large.png",
+		"oAP": "\/assets\/images\/cannon-logo-large.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/cannon-logo.png": {
+	"\/assets\/images\/cannon-logo.png": {
 		"ft": 32768,
 		"iS": 56714,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/cannon-logo.png",
+		"oAP": "\/assets\/images\/cannon-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/demo\/assets\/images\/chevron-down.svg": {
+	"\/assets\/images\/chevron-down.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/demo\/assets\/images\/chevron-down.svg",
+		"oAP": "\/assets\/images\/chevron-down.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/demo\/assets\/images\/profile-adrian-saville.webp": {
+	"\/assets\/images\/profile-adrian-saville.webp": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/images\/profile-adrian-saville.webp",
+		"oAP": "\/assets\/images\/profile-adrian-saville.webp",
 		"oF": 0
 		},
-	"\/demo\/assets\/scripts\/ajax-load.js": {
+	"\/assets\/scripts\/ajax-load.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/ajax-load-min.js",
+		"oAP": "\/assets\/scripts\/ajax-load-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/anchor-scroll.js": {
+	"\/assets\/scripts\/anchor-scroll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/anchor-scroll-min.js",
+		"oAP": "\/assets\/scripts\/anchor-scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/parallax.html": {
+	"\/assets\/scripts\/parallax.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/parallax.html",
+		"oAP": "\/assets\/scripts\/parallax.html",
 		"oF": 0
 		},
-	"\/demo\/assets\/scripts\/scroll-min.js": {
+	"\/assets\/scripts\/scroll-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scroll-min-min.js",
+		"oAP": "\/assets\/scripts\/scroll-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/scroll.js": {
+	"\/assets\/scripts\/scroll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scroll-min.js",
+		"oAP": "\/assets\/scripts\/scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/scripts\/scrollpoints.js": {
+	"\/assets\/scripts\/scrollpoints.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/scripts\/scrollpoints-min.js",
+		"oAP": "\/assets\/scripts\/scrollpoints-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/demo\/assets\/styles\/global-min.css": {
+	"\/assets\/Styles\/global-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/global-min-min.css",
+		"oAP": "\/assets\/Styles\/global-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/global.css": {
+	"\/assets\/Styles\/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/global-min.css",
+		"oAP": "\/assets\/Styles\/global-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-graph-min.css": {
+	"\/assets\/Styles\/investments-graph-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-graph-min-min.css",
+		"oAP": "\/assets\/Styles\/investments-graph-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-graph.css": {
+	"\/assets\/Styles\/investments-graph.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-graph-min.css",
+		"oAP": "\/assets\/Styles\/investments-graph-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments-min.css": {
+	"\/assets\/styles\/investments-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-min-min.css",
+		"oAP": "\/assets\/styles\/investments-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/investments.css": {
+	"\/assets\/styles\/investments.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/investments-min.css",
+		"oAP": "\/assets\/styles\/investments-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/navbar-min.css": {
+	"\/assets\/Styles\/navbar-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/navbar-min-min.css",
+		"oAP": "\/assets\/Styles\/navbar-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/navbar.css": {
+	"\/assets\/Styles\/navbar.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/navbar-min.css",
+		"oAP": "\/assets\/Styles\/navbar-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/team-min.css": {
+	"\/assets\/styles\/team-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/team-min-min.css",
+		"oAP": "\/assets\/styles\/team-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/assets\/styles\/team.css": {
+	"\/assets\/styles\/team.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/demo\/assets\/styles\/team-min.css",
+		"oAP": "\/assets\/styles\/team-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/demo\/includes\/footer.php": {
+	"\/includes\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/footer.php",
+		"oAP": "\/includes\/footer.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/investment-card.php": {
+	"\/includes\/investment-card.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/investment-card.php",
+		"oAP": "\/includes\/investment-card.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/investments-graph.php": {
+	"\/includes\/investments-graph.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/investments-graph.php",
+		"oAP": "\/includes\/investments-graph.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/navbar.php": {
+	"\/includes\/navbar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/navbar.php",
+		"oAP": "\/includes\/navbar.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/scripts.php": {
+	"\/includes\/scripts.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/scripts.php",
+		"oAP": "\/includes\/scripts.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/styles.php": {
+	"\/includes\/styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/styles.php",
+		"oAP": "\/includes\/styles.php",
 		"oF": 0
 		},
-	"\/demo\/includes\/team-card.php": {
+	"\/includes\/team-card.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/includes\/team-card.php",
+		"oAP": "\/includes\/team-card.php",
 		"oF": 0
 		},
-	"\/demo\/index.php": {
+	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/index.php",
+		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/demo\/investments.php": {
+	"\/investments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/investments.php",
+		"oAP": "\/investments.php",
 		"oF": 0
 		},
-	"\/demo\/team.php": {
+	"\/team.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/demo\/team.php",
+		"oAP": "\/team.php",
 		"oF": 0
-		},
-	"\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
-	"\/images\/award_awwwards.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_awwwards.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/award_dope.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_dope.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/award_fwa.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_fwa.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/award_pixel.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_pixel.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/award_w3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_w3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/award_webby.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/award_webby.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/brett-white.jpg": {
-		"ft": 16384,
-		"iS": 103461,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/brett-white.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/ic_medium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/ic_medium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/icon-114x114.png": {
-		"ft": 32768,
-		"iS": 365,
-		"oA": 0,
-		"oAP": "\/images\/icon-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/icon-144.png": {
-		"ft": 32768,
-		"iS": 381,
-		"oA": 0,
-		"oAP": "\/images\/icon-144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/icon-57x57.png": {
-		"ft": 32768,
-		"iS": 220,
-		"oA": 0,
-		"oAP": "\/images\/icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/icon-72x72.png": {
-		"ft": 32768,
-		"iS": 258,
-		"oA": 0,
-		"oAP": "\/images\/icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/logo_pexcil.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/logo_pexcil.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/images\/logo_zapper.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/logo_zapper.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/scripts\/global-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/scripts\/global-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/scripts\/global.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/scripts\/global-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sitemap.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sitemap.xml",
-		"oF": 0
-		},
-	"\/styles\/global-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles\/global-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/styles\/global.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles\/global-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
@@ -926,15 +347,15 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 549828120,
-	"displayValue": "brettandwhite.gihub.io",
+	"creationDate": 558697195,
+	"displayValue": "cannon.static",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-gavin",
+	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -2325,7 +1746,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/cannon.static\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
