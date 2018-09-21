@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon-72x72.png" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" href="images/icon-57x57.png" />
-    <!-- <link href="styles/global-min.css" rel="stylesheet"> -->
+    <link href="styles/global-min.css" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -183,22 +183,6 @@
         <p class="copyright">© 2018 brettandwhite</p>
       </div>
     </footer>
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="styles/global-min.css"/>
-    </noscript>
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120581061-1"></script>
