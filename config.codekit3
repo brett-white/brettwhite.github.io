@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,523 +7,523 @@
 		"uuidString": "0DEF308F-54CE-48D8-9870-60B825A85415"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28795",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep": {
+	"/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 1.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 1.aep",
+		"oAP": "/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 1.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep": {
+	"/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 2.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 2.aep",
+		"oAP": "/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 2.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep": {
+	"/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 3.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 3.aep",
+		"oAP": "/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 3.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep": {
+	"/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 4.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 4.aep",
+		"oAP": "/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 4.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep": {
+	"/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 5.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/Adobe After Effects Auto-Save\/brettandwhite-dribbble auto-save 5.aep",
+		"oAP": "/_EDIT/Adobe After Effects Auto-Save/brettandwhite-dribbble auto-save 5.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/b+w.sketch": {
+	"/_EDIT/b+w.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/b+w.sketch",
+		"oAP": "/_EDIT/b+w.sketch",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-1200x900.mov": {
+	"/_EDIT/brettandwhite-1200x900.mov": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-1200x900.mov",
+		"oAP": "/_EDIT/brettandwhite-1200x900.mov",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-800x600-trimmed.mov": {
+	"/_EDIT/brettandwhite-800x600-trimmed.mov": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mov",
+		"oAP": "/_EDIT/brettandwhite-800x600-trimmed.mov",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-800x600-trimmed.mp4": {
+	"/_EDIT/brettandwhite-800x600-trimmed.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-800x600-trimmed.mp4",
+		"oAP": "/_EDIT/brettandwhite-800x600-trimmed.mp4",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-dribbble.aep": {
+	"/_EDIT/brettandwhite-dribbble.aep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-dribbble.aep",
+		"oAP": "/_EDIT/brettandwhite-dribbble.aep",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-dribbble.jpg": {
+	"/_EDIT/brettandwhite-dribbble.jpg": {
 		"ft": 16384,
 		"iS": 54074,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-dribbble.jpg",
+		"oAP": "/_EDIT/brettandwhite-dribbble.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/_EDIT\/brettandwhite-recording-dribbble.mov": {
+	"/_EDIT/brettandwhite-recording-dribbble.mov": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-recording-dribbble.mov",
+		"oAP": "/_EDIT/brettandwhite-recording-dribbble.mov",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-recording.mov": {
+	"/_EDIT/brettandwhite-recording.mov": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-recording.mov",
+		"oAP": "/_EDIT/brettandwhite-recording.mov",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-screenshot.png": {
+	"/_EDIT/brettandwhite-screenshot.png": {
 		"ft": 32768,
 		"iS": 887242,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-screenshot.png",
+		"oAP": "/_EDIT/brettandwhite-screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/_EDIT\/brettandwhite-type-800x600-fast.psd": {
+	"/_EDIT/brettandwhite-type-800x600-fast.psd": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600-fast.psd",
+		"oAP": "/_EDIT/brettandwhite-type-800x600-fast.psd",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-type-800x600-trimmed.gif": {
+	"/_EDIT/brettandwhite-type-800x600-trimmed.gif": {
 		"ft": 4194304,
 		"iS": 12362995,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600-trimmed.gif",
+		"oAP": "/_EDIT/brettandwhite-type-800x600-trimmed.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_EDIT\/brettandwhite-type-800x600.gif": {
+	"/_EDIT/brettandwhite-type-800x600.gif": {
 		"ft": 4194304,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.gif",
+		"oAP": "/_EDIT/brettandwhite-type-800x600.gif",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/_EDIT\/brettandwhite-type-800x600.mov": {
+	"/_EDIT/brettandwhite-type-800x600.mov": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mov",
+		"oAP": "/_EDIT/brettandwhite-type-800x600.mov",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-type-800x600.mp4": {
+	"/_EDIT/brettandwhite-type-800x600.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.mp4",
+		"oAP": "/_EDIT/brettandwhite-type-800x600.mp4",
 		"oF": 0
 		},
-	"\/_EDIT\/brettandwhite-type-800x600.psd": {
+	"/_EDIT/brettandwhite-type-800x600.psd": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/brettandwhite-type-800x600.psd",
+		"oAP": "/_EDIT/brettandwhite-type-800x600.psd",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-2.fla": {
+	"/_EDIT/BW-2.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-2.fla",
+		"oAP": "/_EDIT/BW-2.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-2.swf": {
+	"/_EDIT/BW-2.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-2.swf",
+		"oAP": "/_EDIT/BW-2.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-3.fla": {
+	"/_EDIT/BW-3.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-3.fla",
+		"oAP": "/_EDIT/BW-3.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-3.swf": {
+	"/_EDIT/BW-3.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-3.swf",
+		"oAP": "/_EDIT/BW-3.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-4.fla": {
+	"/_EDIT/BW-4.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-4.fla",
+		"oAP": "/_EDIT/BW-4.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-4.swf": {
+	"/_EDIT/BW-4.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-4.swf",
+		"oAP": "/_EDIT/BW-4.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-5.fla": {
+	"/_EDIT/BW-5.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-5.fla",
+		"oAP": "/_EDIT/BW-5.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-5.swf": {
+	"/_EDIT/BW-5.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-5.swf",
+		"oAP": "/_EDIT/BW-5.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-6.fla": {
+	"/_EDIT/BW-6.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-6.fla",
+		"oAP": "/_EDIT/BW-6.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-6.swf": {
+	"/_EDIT/BW-6.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-6.swf",
+		"oAP": "/_EDIT/BW-6.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-7.fla": {
+	"/_EDIT/BW-7.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-7.fla",
+		"oAP": "/_EDIT/BW-7.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-7.swf": {
+	"/_EDIT/BW-7.swf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-7.swf",
+		"oAP": "/_EDIT/BW-7.swf",
 		"oF": 0
 		},
-	"\/_EDIT\/BW-min.js": {
+	"/_EDIT/BW-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-min-min.js",
+		"oAP": "/_EDIT/BW-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_EDIT\/BW.fla": {
+	"/_EDIT/BW.fla": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW.fla",
+		"oAP": "/_EDIT/BW.fla",
 		"oF": 0
 		},
-	"\/_EDIT\/BW.html": {
+	"/_EDIT/BW.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW.html",
+		"oAP": "/_EDIT/BW.html",
 		"oF": 0
 		},
-	"\/_EDIT\/BW.iconsproj": {
+	"/_EDIT/BW.iconsproj": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW.iconsproj",
+		"oAP": "/_EDIT/BW.iconsproj",
 		"oF": 0
 		},
-	"\/_EDIT\/BW.js": {
+	"/_EDIT/BW.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW-min.js",
+		"oAP": "/_EDIT/BW-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_EDIT\/BW_512.png": {
+	"/_EDIT/BW_512.png": {
 		"ft": 32768,
 		"iS": 16141,
 		"oA": 0,
-		"oAP": "\/_EDIT\/BW_512.png",
+		"oAP": "/_EDIT/BW_512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/_EDIT\/BW_H.svg": {
+	"/_EDIT/BW_H.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/_EDIT\/BW_H.svg",
+		"oAP": "/_EDIT/BW_H.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_EDIT\/BW_V.svg": {
+	"/_EDIT/BW_V.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/_EDIT\/BW_V.svg",
+		"oAP": "/_EDIT/BW_V.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_EDIT\/index.1.html": {
+	"/_EDIT/index.1.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/index.1.html",
+		"oAP": "/_EDIT/index.1.html",
 		"oF": 0
 		},
-	"\/_EDIT\/index_colours.html": {
+	"/_EDIT/index_colours.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/index_colours.html",
+		"oAP": "/_EDIT/index_colours.html",
 		"oF": 0
 		},
-	"\/_EDIT\/index_gradient.html": {
+	"/_EDIT/index_gradient.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/index_gradient.html",
+		"oAP": "/_EDIT/index_gradient.html",
 		"oF": 0
 		},
-	"\/_EDIT\/index_logo.html": {
+	"/_EDIT/index_logo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/index_logo.html",
+		"oAP": "/_EDIT/index_logo.html",
 		"oF": 0
 		},
-	"\/_EDIT\/linkedin-header-zapper.psd": {
+	"/_EDIT/linkedin-header-zapper.psd": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_EDIT\/linkedin-header-zapper.psd",
+		"oAP": "/_EDIT/linkedin-header-zapper.psd",
 		"oF": 0
 		},
-	"\/CNAME": {
+	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/CNAME",
+		"oAP": "/CNAME",
 		"oF": 0
 		},
-	"\/favicon.ico": {
+	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/favicon.ico",
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
-	"\/images\/award_awwwards.svg": {
+	"/images/award_awwwards.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_awwwards.svg",
+		"oAP": "/images/award_awwwards.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/award_dope.svg": {
+	"/images/award_dope.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_dope.svg",
+		"oAP": "/images/award_dope.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/award_fwa.svg": {
+	"/images/award_fwa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_fwa.svg",
+		"oAP": "/images/award_fwa.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/award_pixel.svg": {
+	"/images/award_pixel.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_pixel.svg",
+		"oAP": "/images/award_pixel.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/award_w3.svg": {
+	"/images/award_w3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_w3.svg",
+		"oAP": "/images/award_w3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/award_webby.svg": {
+	"/images/award_webby.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/award_webby.svg",
+		"oAP": "/images/award_webby.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/brett-white.jpg": {
+	"/images/brett-white.jpg": {
 		"ft": 16384,
 		"iS": 103461,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/brett-white.jpg",
+		"oAP": "/images/brett-white.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/ic_medium.svg": {
+	"/images/ic_medium.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ic_medium.svg",
+		"oAP": "/images/ic_medium.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/icon-114x114.png": {
+	"/images/icon-114x114.png": {
 		"ft": 32768,
 		"iS": 365,
 		"oA": 0,
-		"oAP": "\/images\/icon-114x114.png",
+		"oAP": "/images/icon-114x114.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/icon-144.png": {
+	"/images/icon-144.png": {
 		"ft": 32768,
 		"iS": 381,
 		"oA": 0,
-		"oAP": "\/images\/icon-144.png",
+		"oAP": "/images/icon-144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/icon-57x57.png": {
+	"/images/icon-57x57.png": {
 		"ft": 32768,
 		"iS": 220,
 		"oA": 0,
-		"oAP": "\/images\/icon-57x57.png",
+		"oAP": "/images/icon-57x57.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/icon-72x72.png": {
+	"/images/icon-72x72.png": {
 		"ft": 32768,
 		"iS": 258,
 		"oA": 0,
-		"oAP": "\/images\/icon-72x72.png",
+		"oAP": "/images/icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/logo_pexcil.svg": {
+	"/images/logo_pexcil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/logo_pexcil.svg",
+		"oAP": "/images/logo_pexcil.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/logo_zapper.svg": {
+	"/images/logo_zapper.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/logo_zapper.svg",
+		"oAP": "/images/logo_zapper.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -532,7 +532,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -541,50 +541,50 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/scripts\/global-min.js": {
+	"/scripts/global-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/global-min-min.js",
+		"oAP": "/scripts/global-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/scripts\/global.js": {
+	"/scripts/global.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/global-min.js",
+		"oAP": "/scripts/global-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/sitemap.xml": {
+	"/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sitemap.xml",
+		"oAP": "/sitemap.xml",
 		"oF": 0
 		},
-	"\/styles\/global-min.css": {
+	"/styles/global-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/global-min-min.css",
+		"oAP": "/styles/global-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/styles\/global.css": {
+	"/styles/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/global-min.css",
+		"oAP": "/styles/global-min.css",
 		"oF": 0,
 		"oS": 3
 		}
@@ -605,141 +605,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -751,7 +704,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -763,7 +737,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -799,53 +791,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -854,6 +839,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1211,6 +1197,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1222,6 +1212,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1267,6 +1261,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1285,10 +1283,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1487,9 +1481,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -1843,6 +1841,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -1871,6 +1873,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -1878,6 +1884,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -1933,7 +1943,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -1993,7 +2003,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2388,7 +2398,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2407,7 +2416,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2439,19 +2448,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2507,7 +2516,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2536,7 +2545,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2560,36 +2569,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2597,11 +2640,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2625,6 +2668,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -2641,7 +2688,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2649,20 +2704,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -2677,6 +2744,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -2685,12 +2760,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -2701,11 +2784,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2717,23 +2808,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2745,9 +2864,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
