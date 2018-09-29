@@ -6,12 +6,12 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-      <loc>http://brettandwhite.com/</loc>
+      <loc>https://brettwhite.co.za/</loc>
       <priority>1.00</priority>
     </url>
 
     <url>
-      <loc>http://www.brettandwhite.com/</loc>
+      <loc>https://www.brettwhite.co.za/</loc>
       <priority>1.00</priority>
     </url>
 
