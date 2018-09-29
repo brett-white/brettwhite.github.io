@@ -1,2 +1,2 @@
-# brettandwhite.gihub.io
+# brettwhite.gihub.io
 Personal resume
