@@ -113,7 +113,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     overflow: hidden;
   }
   header .container {
-    padding: 48px 24px 0;
+    padding: 192px 24px 48px;
   }
   header .row {
     margin: 0;
@@ -133,10 +133,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   header figure {
     overflow: hidden;
-    margin: 0 -8% -8%;
+    position: absolute;
+    top: 48px;
+    overflow: hidden;
+    max-width: 114px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.16);
   }
   header figure img {
-    max-width: 480px;
     margin: 0 auto;
   }
   main {
@@ -301,10 +305,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     header figure {
       position: absolute;
+      top: auto;
       bottom: 0;
       left: 0;
       right: 50%;
       margin: 0 0 -4%;
+      max-width: 100%;
+      border-radius: 0;
+      box-shadow: none;
     }
     header figure img {
       max-width: 720px;
