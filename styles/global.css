@@ -114,6 +114,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background: #fff;
   }
   header .container {
+    position: relative;
     padding: 144px 24px 48px;
   }
   header .row {
