@@ -296,6 +296,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       height: 100vh;
     }
     header .container {
+      position: static;
       display: flex;
       align-items: center;
       padding: 120px 48px;
