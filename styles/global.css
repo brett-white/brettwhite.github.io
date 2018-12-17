@@ -7,7 +7,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: normal;
   }
   html {
-    background: white;
+    background: black;
   }
   body {
     min-height: 100vh;
@@ -15,7 +15,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    background-color: white;
+    background-color: black;
     fill: black;
     color: black;
   }
@@ -91,7 +91,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 96px 24px;
+    padding: 48px 24px;
   }
   .col {
     width: 100%;
@@ -111,9 +111,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     position: relative;
     width: 100%;
     overflow: hidden;
+    background: #fff;
   }
   header .container {
-    padding: 192px 24px 48px;
+    padding: 144px 24px 48px;
   }
   header .row {
     margin: 0;
@@ -122,21 +123,28 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 0;
   }
   header .col + .col {
-    margin-top: 24px;
+    margin-top: 0;
   }
   header .social {
-    margin-top: 24px;
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    margin-top: 0;
   }
   header .social li {
     margin-left: 0;
-    margin-right: 16px;
+    margin-right: 8px;
+  }
+  header .social li svg {
+    width: 20px;
+    height: 20px;
   }
   header figure {
     overflow: hidden;
     position: absolute;
-    top: 48px;
+    top: 32px;
     overflow: hidden;
-    max-width: 114px;
+    max-width: 80px;
     border-radius: 50%;
     box-shadow: 0 8px 16px rgba(0,0,0,0.16);
   }
