@@ -147,7 +147,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     overflow: hidden;
     max-width: 80px;
     border-radius: 50%;
-    border: solid 4px black;
+    border: solid 2px black;
   }
   header figure img {
     margin: 0 auto;
