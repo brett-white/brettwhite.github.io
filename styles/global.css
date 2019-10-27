@@ -54,6 +54,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: inline-block;
     position: relative;
   }
+  h3 {
+    font-size: 18px;
+    line-height: 20px;
+    /* font-weight: 700; */
+  }
   .typewrite-container {
     min-width: 210px;
   }
@@ -115,7 +120,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   header .container {
     position: relative;
-    padding: 152px 24px 48px;
+    padding: 40px 24px;
   }
   header .row {
     margin: 0;
@@ -141,16 +146,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     height: 20px;
   }
   header figure {
-    overflow: hidden;
+    display: none;
     position: absolute;
     top: 48px;
     overflow: hidden;
     max-width: 80px;
     border-radius: 50%;
     border: solid 2px black;
-  }
-  header figure img {
-    margin: 0 auto;
   }
   main {
     position: relative;
@@ -314,19 +316,27 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding: 0 48px;
     }
     header figure {
+      display: block;
       position: absolute;
-      top: auto;
+      top: 0;
       bottom: 0;
       left: 0;
-      right: 50%;
-      margin: 0 0 -4%;
+      right: 0;
       max-width: 100%;
       border-radius: 0;
       border: none;
+      transform: translateX(-50%);
+      background-image: url(../images/brett-white.jpg);
+      background-size: auto 100%;
+      background-position: bottom center;
+      background-repeat: no-repeat;
     }
     header figure img {
       max-width: 720px;
       margin: 0 auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
     }
     header .social {
       position: absolute;
