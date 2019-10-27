@@ -118,6 +118,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     overflow: hidden;
     background: #fff;
   }
+  header article h2 {
+    margin-top: 40px;
+  }
   header .container {
     position: relative;
     padding: 40px 24px;
@@ -348,6 +351,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       right: 0;
       padding: 24px;
       margin: 0;
+    }
+    header article h2 {
+      margin-top: 24px;
     }
     footer .social {
       margin-left: -24px;
