@@ -287,12 +287,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .col {
       display: flex;
-      width: 50%;
+      width: 66%;
       max-width: 100%;
       padding: 0 48px;
     }
     .col + .col {
       margin-top: 0;
+      width: 34%;
     }
     header {
       height: 100vh;
