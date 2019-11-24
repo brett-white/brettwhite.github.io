@@ -187,6 +187,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 8px;
     background: currentColor;
   }
+  .roles {
+    width: 100%;
+  }
   .roles li {
     display: block;
     width: 100%;
@@ -194,7 +197,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .roles li + li,
   .roles li ul > li {
-    border-top: solid 1px #333;
+    border-top: dashed 1px #fff;
     padding-top: 16px;
     margin-top: 16px;
   }
