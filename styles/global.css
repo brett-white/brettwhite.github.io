@@ -187,6 +187,28 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 8px;
     background: currentColor;
   }
+  .roles li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+  .roles li + li,
+  .roles li ul > li {
+    border-top: solid 1px #333;
+    padding-top: 16px;
+    margin-top: 16px;
+  }
+  .roles li ul {
+    border-left: solid 1px #fff;
+    padding-left: 24px;
+  }
+  .roles h3 {
+    font-size: 100%;
+    font-weight: bold;
+  }
+  .roles p {
+    text-transform: uppercase;
+  }
   article > * {
     display: block;
   }
@@ -197,6 +219,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   article > * + * {
     margin-top: 16px;
+  }
+  main .col article h1 {
+    font-size: 20px;
+    font-weight: bold;
   }
   .invert {
     background: black;
@@ -241,10 +267,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding-top: 0;
     padding-bottom: 48px;
   }
-  footer .social {
+  footer .social,
+  .sidebar .social {
     margin-left: -16px;
   }
-  footer .social li {
+  footer .social li,
+  .sidebar .social li {
     display: inline-block;
     float: none;
     margin: 0 8px;
@@ -290,11 +318,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .col {
       display: flex;
-      width: 50%;
+      width: 34%;
       max-width: 100%;
       padding: 0 48px;
     }
     .col + .col {
+      width: 66%;
       margin-top: 0;
     }
     header {
@@ -309,14 +338,15 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     header .row {
       align-items: center;
       margin: 0;
-      flex-flow: row-reverse;
+      /* flex-flow: row-reverse; */
     }
     header .col {
       padding: 0;
-      width: 66%;
+      width: 34%;
     }
     header .col + .col {
-      width: 34%;
+      width: 66%;
+      z-index: 0;
     }
     header article {
       max-width: 100%;
