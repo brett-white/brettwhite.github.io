@@ -412,9 +412,3 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       margin-top: 24px;
     } */
   }
-  @media only screen and (min-width: 1440px) {
-    header {
-      background-size: 720px auto;
-      background-position: 12% bottom;
-    }
-  }
