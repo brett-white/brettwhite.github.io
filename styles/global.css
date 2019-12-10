@@ -96,7 +96,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 64px 24px 48px;
+    padding: 80px 40px;
   }
   .col {
     width: 100%;
@@ -114,12 +114,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 100%;
     overflow: hidden;
     background: #fff;
-    background-image: url(../images/brett-white-half.jpg);
+    background-image: none;
     background-size: auto 100%;
     background-position: bottom left;
     background-repeat: no-repeat;
   }
-  header:before {
+  /* header:before {
     content: '';
     display: block;
     visibility: visible;
@@ -130,13 +130,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     right: 0;
     background: rgba(255,255,255,0.8);
     transition: all 1s ease-in-out;
-  }
+  } */
   header article h2 {
     margin-top: 40px;
   }
   header .container {
     position: relative;
-    padding: 80px 40px;
   }
   header .row {
     margin: 0;
@@ -330,6 +329,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     header {
       height: 100vh;
+      background-image: url(../images/brett-white-half.jpg);
     }
     header:before {
       opacity: 0;
