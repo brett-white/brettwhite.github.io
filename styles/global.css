@@ -16,8 +16,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 14px;
     line-height: 28px;
     background-color: white;
-    fill: white;
     color: black;
+    fill: black;
   }
   * {
     color: inherit;
@@ -147,10 +147,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 0;
   }
   header .social {
-    position: absolute;
+    /* position: absolute;
     top: 40px;
     right: 12px;
-    margin-top: 0;
+    margin-top: 0; */
+    margin-left: -6px;
   }
   header .social li {
     margin-left: 0;
