@@ -96,7 +96,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 40px;
   }
   .col {
     width: 100%;
@@ -112,30 +112,19 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     flex-flow: row wrap;
     position: relative;
     width: 100%;
-    overflow: hidden;
     background: #fff;
     background-image: none;
     background-size: auto 100%;
     background-position: bottom left;
     background-repeat: no-repeat;
+    height: 100vh;
   }
-  /* header:before {
-    content: '';
-    display: block;
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255,255,255,0.8);
-    transition: all 1s ease-in-out;
-  } */
   header article h2 {
     margin-top: 40px;
   }
   header .container {
-    position: relative;
+    display: flex;
+    align-items: center;
   }
   header .row {
     margin: 0;
@@ -145,21 +134,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   header .col + .col {
     margin-top: 0;
-  }
-  header .social {
-    /* position: absolute;
-    top: 40px;
-    right: 12px;
-    margin-top: 0; */
-    margin-left: -6px;
-  }
-  header .social li {
-    margin-left: 0;
-    margin-right: 8px;
-  }
-  header .social li svg {
-    width: 20px;
-    height: 20px;
   }
   main {
     position: relative;
@@ -246,6 +220,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .social {
     font-size: 0;
+    margin-top: 40px;
+    margin-left: -12px;
   }
   .social:after {
     content: '';
@@ -255,10 +231,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .social li {
     display: block;
     float: left;
+    margin-left: auto;
+    margin-right: 16px;
   }
   .social li a {
     display: block;
-    padding: 8px;
+    padding: 16px;
   }
   .social svg {
     width: 24px;
@@ -332,8 +310,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex-direction: row-reverse;
     }
     header {
-      height: 100vh;
-      /* background-image: url(../images/brett-white-halftone.jpg); */
       background-image: url(../images/brett-white-half.jpg);
     }
     header:before {
