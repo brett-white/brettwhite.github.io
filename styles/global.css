@@ -96,7 +96,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 56px 40px;
   }
   .col {
     width: 100%;
@@ -117,14 +117,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-size: auto 100%;
     background-position: bottom left;
     background-repeat: no-repeat;
-    height: 100vh;
-  }
-  header article h2 {
-    margin-top: 40px;
   }
   header .container {
     display: flex;
     align-items: center;
+  }
+  header article h2 {
+    margin-top: 40px;
   }
   header .row {
     margin: 0;
@@ -310,6 +309,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex-direction: row-reverse;
     }
     header {
+      height: 100vh;
       background-image: url(../images/brett-white-half.jpg);
     }
     header:before {
