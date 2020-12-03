@@ -118,6 +118,20 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-position: bottom left;
     background-repeat: no-repeat;
   }
+  /* header::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/static.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+  } */
   header .container {
     display: flex;
     align-items: center;
@@ -313,8 +327,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       background-image: url(../images/brett-white-half.jpg);
     }
     header:before {
-      opacity: 0;
-      visibility: hidden;
+      /* opacity: 0;
+      visibility: hidden; */
     }
     header .container {
       position: static;
