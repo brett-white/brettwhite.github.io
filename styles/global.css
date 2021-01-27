@@ -249,7 +249,23 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .social li a {
     display: block;
-    padding: 16px;
+    width: 48px;
+    height: 48px;
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .social .twitter {
+    background-image: url(../images/ic_twitter.svg);
+  }
+  .social .linkedin {
+    background-image: url(../images/ic_linkedin.svg);
+  }
+  .social .behance {
+    background-image: url(../images/ic_behance.svg);
+  }
+  .social .dribbble {
+    background-image: url(../images/ic_dribbble.svg);
   }
   .social svg {
     width: 24px;
