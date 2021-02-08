@@ -286,6 +286,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .social .dribbble {
     background-image: url(../images/social-dribbble.svg);
   }
+  .social .email {
+    background-image: url(../images/ic-email.svg);
+  }
   .social svg {
     width: 24px;
     height: 24px;
