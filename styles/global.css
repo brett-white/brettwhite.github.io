@@ -340,7 +340,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: normal;
   }
   .listing.press li {
-    flex: 0 2 50%;
+    flex: 0 0 100%;
     padding: 16px;
   }
   .listing.press article {
@@ -433,6 +433,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .listing li {
       flex: 0 0 25%;
+    }
+    .listing.press li {
+      flex: 0 0 50%;
     }
     .listing.awards li {
       flex: 0 0 20%;
