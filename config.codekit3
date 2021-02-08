@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,7 +7,7 @@
 		"uuidString": "0DEF308F-54CE-48D8-9870-60B825A85415"
 		}
 	],
-"creatorBuild": "32186",
+"creatorBuild": "33081",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -15,6 +15,54 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/_ARCHIVE/index copy 2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index copy 2.html",
+		"oF": 0
+		},
+	"/_ARCHIVE/index copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index copy.html",
+		"oF": 0
+		},
+	"/_ARCHIVE/index-16052020.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-16052020.html",
+		"oF": 0
+		},
+	"/_ARCHIVE/index-24112019.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-24112019.html",
+		"oF": 0
+		},
+	"/_ARCHIVE/index-27052020.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-27052020.html",
+		"oF": 0
+		},
+	"/_ARCHIVE/index-backup.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-backup.html",
 		"oF": 0
 		},
 	"/_EDIT": {
@@ -40,7 +88,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-128.png": {
 		"ft": 32768,
@@ -51,7 +101,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-144.png": {
 		"ft": 32768,
@@ -62,7 +114,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-152.png": {
 		"ft": 32768,
@@ -73,7 +127,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-195.png": {
 		"ft": 32768,
@@ -84,7 +140,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-228.png": {
 		"ft": 32768,
@@ -95,7 +153,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-32.png": {
 		"ft": 32768,
@@ -106,7 +166,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-57.png": {
 		"ft": 32768,
@@ -117,7 +179,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-72.png": {
 		"ft": 32768,
@@ -128,7 +192,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon-96.png": {
 		"ft": 32768,
@@ -139,7 +205,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/favicon.ico": {
 		"cB": 0,
@@ -148,6 +216,282 @@
 		"oA": 0,
 		"oAP": "/favicon.ico",
 		"oF": 0
+		},
+	"/images/award-awwwards-black.png": {
+		"ft": 32768,
+		"iS": 3316,
+		"oA": 0,
+		"oAP": "/images/award-awwwards-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-awwwards-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-awwwards-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-awwwards-white.png": {
+		"ft": 32768,
+		"iS": 3518,
+		"oA": 0,
+		"oAP": "/images/award-awwwards-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-awwwards-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-awwwards-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-dope-black.png": {
+		"ft": 32768,
+		"iS": 3225,
+		"oA": 0,
+		"oAP": "/images/award-dope-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-dope-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-dope-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-dope-white.png": {
+		"ft": 32768,
+		"iS": 3526,
+		"oA": 0,
+		"oAP": "/images/award-dope-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-dope-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-dope-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-fwa-black.png": {
+		"ft": 32768,
+		"iS": 4175,
+		"oA": 0,
+		"oAP": "/images/award-fwa-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-fwa-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-fwa-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-fwa-white.png": {
+		"ft": 32768,
+		"iS": 4357,
+		"oA": 0,
+		"oAP": "/images/award-fwa-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-fwa-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-fwa-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-pixel-black.png": {
+		"ft": 32768,
+		"iS": 6512,
+		"oA": 0,
+		"oAP": "/images/award-pixel-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-pixel-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-pixel-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-pixel-white.png": {
+		"ft": 32768,
+		"iS": 7233,
+		"oA": 0,
+		"oAP": "/images/award-pixel-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-pixel-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-pixel-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-w3-black.png": {
+		"ft": 32768,
+		"iS": 2651,
+		"oA": 0,
+		"oAP": "/images/award-w3-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-w3-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-w3-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-w3-white.png": {
+		"ft": 32768,
+		"iS": 2987,
+		"oA": 0,
+		"oAP": "/images/award-w3-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-w3-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-w3-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-webby-black.png": {
+		"ft": 32768,
+		"iS": 5144,
+		"oA": 0,
+		"oAP": "/images/award-webby-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-webby-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-webby-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/award-webby-white.png": {
+		"ft": 32768,
+		"iS": 5626,
+		"oA": 0,
+		"oAP": "/images/award-webby-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/award-webby-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/award-webby-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/award_awwwards.svg": {
 		"ft": 2097152,
@@ -209,6 +553,266 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/book-creativity-inc.jpg": {
+		"ft": 16384,
+		"iS": 185160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-creativity-inc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-elon-musk.jpg": {
+		"ft": 16384,
+		"iS": 53404,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-elon-musk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-hit-refresh.jpg": {
+		"ft": 16384,
+		"iS": 32936,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-hit-refresh.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-hunting-the-nazi-bomb.jpg": {
+		"ft": 16384,
+		"iS": 27571,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-hunting-the-nazi-bomb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-iwoz.jpg": {
+		"ft": 16384,
+		"iS": 22526,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-iwoz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-jony-ive.jpg": {
+		"ft": 16384,
+		"iS": 294667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-jony-ive.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-let-my-people-go-surfing.jpg": {
+		"ft": 16384,
+		"iS": 1376609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-let-my-people-go-surfing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-lost-connections.jpg": {
+		"ft": 16384,
+		"iS": 846599,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-lost-connections.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-mans-search-for-meaning.jpg": {
+		"ft": 16384,
+		"iS": 84936,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-mans-search-for-meaning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-principles.jpg": {
+		"ft": 16384,
+		"iS": 207817,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-principles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-ride-of-a-lifetime.jpg": {
+		"ft": 16384,
+		"iS": 22409,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-ride-of-a-lifetime.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-steve-jobs.jpg": {
+		"ft": 16384,
+		"iS": 329559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-steve-jobs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-that-will-never-work.jpg": {
+		"ft": 16384,
+		"iS": 68028,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-that-will-never-work.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-the-everything-store.jpg": {
+		"ft": 16384,
+		"iS": 244277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-the-everything-store.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-the-innovation-stack.jpg": {
+		"ft": 16384,
+		"iS": 111448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-the-innovation-stack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-the-innovators.jpg": {
+		"ft": 16384,
+		"iS": 33699,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-the-innovators.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-think-again.jpg": {
+		"ft": 16384,
+		"iS": 8158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-think-again.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-tim-cook.jpg": {
+		"ft": 16384,
+		"iS": 536851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-tim-cook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-whatever-you-think-think-the-opposite.jpg": {
+		"ft": 16384,
+		"iS": 158355,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-whatever-you-think-think-the-opposite.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-wise-guy.jpg": {
+		"ft": 16384,
+		"iS": 23775,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-wise-guy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/brett-white-half-blur.jpg": {
 		"ft": 16384,
 		"iS": 73756,
@@ -218,7 +822,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/brett-white-half.jpg": {
 		"ft": 16384,
@@ -229,7 +835,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/brett-white-halftone.jpg": {
 		"ft": 16384,
@@ -240,7 +848,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/brett-white-split.jpg": {
 		"ft": 16384,
@@ -251,7 +861,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/brett-white.jpg": {
 		"ft": 16384,
@@ -262,23 +874,15 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/ic_behance.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/ic_behance.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/ic_bwd.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/ic_bwd.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -343,7 +947,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icon-144.png": {
 		"ft": 32768,
@@ -354,7 +960,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icon-57x57.png": {
 		"ft": 32768,
@@ -365,7 +973,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icon-72x72.png": {
 		"ft": 32768,
@@ -376,7 +986,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/logo_mono.svg": {
 		"ft": 2097152,
@@ -408,45 +1020,338 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/opinion-linkedin-20200226.jpg": {
+		"ft": 16384,
+		"iS": 52411,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/opinion-linkedin-20200226.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/opinion-linkedin-20200323.jpg": {
+		"ft": 16384,
+		"iS": 57767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/opinion-linkedin-20200323.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/opinion-linkedin-20200701.jpg": {
+		"ft": 16384,
+		"iS": 32307,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/opinion-linkedin-20200701.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-business-wars.jpg": {
+		"ft": 16384,
+		"iS": 606567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-business-wars.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-design-details.jpg": {
+		"ft": 16384,
+		"iS": 297682,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-design-details.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-how-i-built-this.jpg": {
+		"ft": 16384,
+		"iS": 120260,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-how-i-built-this.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-inside-intercom.jpg": {
+		"ft": 16384,
+		"iS": 647558,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-inside-intercom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-pivot.jpg": {
+		"ft": 16384,
+		"iS": 206694,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-pivot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-postlight.jpg": {
+		"ft": 16384,
+		"iS": 89958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-postlight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-remarkable-people.jpg": {
+		"ft": 16384,
+		"iS": 377998,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-remarkable-people.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-shop-talk-show.jpg": {
+		"ft": 16384,
+		"iS": 436552,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-shop-talk-show.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-tech-meme-ride-home.jpg": {
+		"ft": 16384,
+		"iS": 912946,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-tech-meme-ride-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-tech-news-briefing.jpg": {
+		"ft": 16384,
+		"iS": 345465,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-tech-news-briefing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-bizcommunity-20201019.jpg": {
+		"ft": 16384,
+		"iS": 56236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-bizcommunity-20201019.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-business-insider-20201003.jpg": {
+		"ft": 16384,
+		"iS": 51295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-business-insider-20201003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-clickatell-20200812.jpg": {
+		"ft": 16384,
+		"iS": 62961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-clickatell-20200812.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-clickatell-20200819.jpg": {
+		"ft": 16384,
+		"iS": 322526,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-clickatell-20200819.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-framer-20161219.jpg": {
+		"ft": 16384,
+		"iS": 36300,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-framer-20161219.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-hypertext-20201008.jpg": {
+		"ft": 16384,
+		"iS": 52983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-hypertext-20201008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-iol-20201020.jpg": {
+		"ft": 16384,
+		"iS": 45974,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-iol-20201020.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-it-web-20200615.jpg": {
+		"ft": 16384,
+		"iS": 56101,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-it-web-20200615.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/social-behance.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/social-behance.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/social-dribbble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/social-dribbble.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/social-linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/social-linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/social-medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/social-medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/social-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/social-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/static.gif": {
 		"ft": 4194304,
 		"iS": 269024,
 		"oA": 0,
 		"oAP": "/images/static.gif",
 		"oF": 0,
-		"opt": 1
-		},
-	"/index-16052020.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index-16052020.html",
-		"oF": 0
-		},
-	"/index-24112019.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index-24112019.html",
-		"oF": 0
-		},
-	"/index-27052020.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index-27052020.html",
-		"oF": 0
-		},
-	"/index-backup.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index-backup.html",
-		"oF": 0
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/index.html": {
 		"cB": 0,
@@ -1024,8 +1929,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -1080,24 +1984,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-case-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -1116,8 +2016,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -1148,16 +2047,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -1272,44 +2169,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -1324,124 +2212,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -1452,20 +2317,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -1484,40 +2345,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loss-of-precision": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -1532,100 +2386,84 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-restricted-exports": {
 			"active": 0,
@@ -1636,8 +2474,7 @@
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -1656,40 +2493,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -1700,20 +2530,16 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -1724,36 +2550,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -1764,8 +2588,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -1776,44 +2599,36 @@
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-backreference": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -1824,12 +2639,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -1876,8 +2689,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -1888,40 +2700,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -1936,24 +2740,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -2016,8 +2816,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -2044,16 +2843,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -2448,7 +3245,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -2474,7 +3273,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2566,7 +3367,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2967,6 +3770,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"

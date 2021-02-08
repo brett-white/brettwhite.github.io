@@ -19,6 +19,18 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     color: black;
     fill: black;
   }
+  body:before {
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background-image: none;
+    background-size: auto 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+  }
   * {
     color: inherit;
     fill: inherit;
@@ -33,6 +45,26 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+  }
+  .theme-light {
+    background: rgba(255,255,255,0.8);
+    color: black;
+  }
+  .theme-red {
+    background: rgba(240, 0, 0, 0.8);
+    color: white;
+  }
+  .theme-green {
+    background: rgb(0, 160, 0);
+    color: white;
+  }
+  .theme-blue {
+    background: rgba(0,0,255,0.8);
+    color: white;
+  }
+  .theme-dark {
+    background: rgba(0,0,0,0.8);
+    color: white;
   }
   /* END RESET */
   h1 {
@@ -96,61 +128,41 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 56px 40px;
+    padding: 48px;
   }
-  .col {
-    width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
-    height: 100%;
+  nav {
+    position: fixed;
+    visibility: hidden;
+    bottom: 16px;
+    left: 16px;
+    right: 66%;
+    z-index: 999;
+    background: rgba(255,255,255,0.9);
+    padding: 16px 32px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
   }
-  .col + .col {
-    margin-top: 48px;
+  nav .menu {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
   }
-  header {
+  #hero {
     display: flex;
     flex-flow: row wrap;
     position: relative;
     width: 100%;
-    background: #fff;
-    background-image: none;
-    background-size: auto 100%;
-    background-position: bottom left;
-    background-repeat: no-repeat;
+    /* background: #fff; */
   }
-  /* header::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/static.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-  } */
-  header .container {
-    display: flex;
-    align-items: center;
+  #hero .bio > * + * {
+    margin-top: 16px;
   }
-  header article h2 {
-    margin-top: 40px;
-  }
-  header .row {
-    margin: 0;
-  }
-  header .col {
-    padding: 0;
-  }
-  header .col + .col {
-    margin-top: 0;
-  }
-  main {
-    position: relative;
-    background: black;
+  #hero .bio h2 {
+    margin-top: 24px;
   }
   figure:after {
     content: '';
@@ -174,6 +186,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 8px;
     background: currentColor;
   }
+  section {
+    width: 100%;
+  }
   .roles {
     width: 100%;
   }
@@ -184,9 +199,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .roles li + li,
   .roles li ul > li {
-    border-top: dashed 1px #fff;
+    border-top: solid 1px #fff;
     padding-top: 16px;
     margin-top: 16px;
+  }
+  .roles li ul > li {
+    border-style: dashed;
   }
   .roles li ul {
     border-left: solid 1px #fff;
@@ -256,16 +274,16 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-repeat: no-repeat;
   }
   .social .twitter {
-    background-image: url(../images/ic_twitter.svg);
+    background-image: url(../images/social-twitter.svg);
   }
   .social .linkedin {
-    background-image: url(../images/ic_linkedin.svg);
+    background-image: url(../images/social-linkedin.svg);
   }
   .social .behance {
-    background-image: url(../images/ic_behance.svg);
+    background-image: url(../images/social-behance.svg);
   }
   .social .dribbble {
-    background-image: url(../images/ic_dribbble.svg);
+    background-image: url(../images/social-dribbble.svg);
   }
   .social svg {
     width: 24px;
@@ -275,10 +293,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     content: '';
     display: table;
     clear: both;
-  }
-  footer .container {
-    padding-top: 0;
-    padding-bottom: 48px;
   }
   footer .social,
   .sidebar .social {
@@ -303,123 +317,127 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
     font-size: 12px;
   }
-  #accolades {
-    text-align: center;
+  .listing {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
   }
-  .awards {
-    margin-top: 24px;
+  .listing li {
+    flex: 0 0 50%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
-  .awards li {
-    display: inline-block;
-    width: 160px;
+  .listing article {
     margin: 0;
     padding: 16px;
   }
+  .listing article * + * {
+    margin: 0;
+    line-height: 100%;
+    margin-top: 8px;
+  }
+  .listing .title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  .listing .author {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .listing.press li {
+    flex: 0 2 50%;
+    padding: 16px;
+  }
+  .listing.press article {
+    padding: 0;
+  }
+  .thumb {
+    border-radius: 8px;
+    border: solid 8px white;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+    filter: saturate(0);
+    transition: all 0.5s ease-out;
+  }
+  .thumb img {
+    width: 100%;
+    height: auto;
+  }
+  .thumb:hover,
+  .thumb:active {
+    filter: saturate(1);
+    transform: scale(1.1);
+  }
+  .media {
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .media iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .border-top {
+    border-top: solid 1px white;
+  }
+  .listing.awards li {
+    flex: 0 0 33%;
+  }
   @media only screen and (min-width: 960px) {
-    .container {
-      max-width: 1200px;
-      padding: 96px;
-    }
-    .row {
-      display: flex;
-      flex-flow: row wrap;
-      margin: 0 -48px;
-    }
-    .col {
-      display: flex;
-      width: 66%;
-      max-width: 100%;
-      padding: 0 48px;
-    }
-    .col + .col {
-      width: 34%;
-      margin-top: 0;
-    }
-    main .row {
-      flex-direction: row-reverse;
-    }
-    header {
-      height: 100vh;
+    body:before {
       background-image: url(../images/brett-white-half.jpg);
     }
-    header:before {
-      /* opacity: 0;
-      visibility: hidden; */
+    .container {
+      max-width: 1200px;
+      /* padding: 96px; */
     }
-    header .container {
-      position: static;
+    #hero {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
+      height: 100vh;
       padding: 120px 48px;
     }
-    header .row {
-      align-items: center;
-      margin: 0;
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
     }
-    header .col {
-      padding: 0;
-      width: 34%;
+    .flex-row-reverse {
+      flex-direction: row-reverse; 
     }
-    header .col + .col {
-      width: 66%;
-      z-index: 0;
+    .flex-one-third {
+      flex: 0 0 34%;
     }
-    header article {
-      max-width: 100%;
-      padding: 0 48px;
+    .flex-two-thirds {
+      flex: 0 0 66%;
     }
-    header figure {
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      max-width: 100%;
-      border-radius: 0;
-      border: none;
-      transform: translateX(-50%);
-      background-image: url(../images/brett-white.jpg);
-      background-size: auto 100%;
-      background-position: bottom center;
-      background-repeat: no-repeat;
+    .flex-align-right {
+      margin-left: auto;
     }
-    header figure img {
-      max-width: 720px;
-      margin: 0 auto;
-      position: absolute;
-      bottom: 0;
-      left: 0;
+    .flex-align-left {
+      margin-right: auto;
     }
-    header .social {
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 24px;
-      margin: 0;
+    .border-top-solid {
+      border-top: solid 1px white;
     }
-    header article h2 {
-      margin-top: 24px;
+    .bio {
+      align-self: center;
     }
-    footer .social {
-      margin-left: -24px;
+    main {
+      position: relative;
+      margin-top: -120px;
     }
-    header .social li {
-      margin-right: 0;
-      margin-left: 16px;
+    .listing li {
+      flex: 0 0 25%;
     }
-    footer .social li {
-      margin: 0 16px;
+    .listing.awards li {
+      flex: 0 0 20%;
     }
-    header .social li svg {
-      width: 24px;
-      height: 24px;
-    }
-    /* footer .social svg {
-      width: 32px;
-      height: auto;
-    } */
-    /* .copyright {
-      margin-top: 24px;
-    } */
   }
