@@ -21,7 +21,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   body:before {
     content: '';
-    display: block;
+    display: none;
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -394,6 +394,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   @media only screen and (min-width: 960px) {
     body:before {
+      display: block;
       background-image: url(../images/brett-white-half.jpg);
     }
     .container {
