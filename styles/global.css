@@ -47,23 +47,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: normal;
   }
   .theme-light {
-    background: rgba(255,255,255,0.8);
+    background: white;
     color: black;
   }
-  .theme-red {
-    background: rgba(240, 0, 0, 0.8);
-    color: white;
-  }
-  .theme-green {
-    background: rgb(0, 160, 0);
-    color: white;
-  }
-  .theme-blue {
-    background: rgba(0,0,255,0.8);
-    color: white;
-  }
   .theme-dark {
-    background: rgba(0,0,0,0.8);
+    background: black;
     color: white;
   }
   /* END RESET */
@@ -362,17 +350,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border-radius: 8px;
     border: solid 8px white;
     box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
-    filter: saturate(0);
-    transition: all 0.5s ease-out;
   }
   .thumb img {
     width: 100%;
     height: auto;
-  }
-  .thumb:hover,
-  .thumb:active {
-    filter: saturate(1);
-    transform: scale(1.1);
   }
   .media {
     display: block;
@@ -435,6 +416,20 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     main {
       position: relative;
       margin-top: -120px;
+    }
+    .theme-light {
+      background: rgba(255,255,255,0.8);
+    }
+    .theme-dark {
+      background: rgba(0,0,0,0.8);
+    }
+    .thumb {
+      filter: saturate(0);
+      transition: all 0.5s ease-out;
+    }
+    .thumb:hover {
+      filter: saturate(1);
+      transform: scale(1.1);
     }
     .listing li {
       flex: 0 0 25%;
