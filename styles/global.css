@@ -128,7 +128,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 48px;
+    padding: 48px 24px;
   }
   nav {
     position: fixed;
@@ -235,6 +235,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 20px;
     font-weight: bold;
   }
+  main h1 {
+    margin-bottom: 24px;
+  }
   .invert {
     background: black;
   }
@@ -251,8 +254,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .social {
     font-size: 0;
-    margin-top: 40px;
-    margin-left: -12px;
   }
   .social:after {
     content: '';
@@ -397,7 +398,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .container {
       max-width: 1200px;
-      /* padding: 96px; */
+      padding: 48px;
     }
     #hero {
       display: flex;
