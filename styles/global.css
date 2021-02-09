@@ -200,8 +200,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border-left: solid 1px #fff;
     padding-left: 24px;
   }
+  .roles article > h1 {
+    margin-bottom: 8px;
+  }
   .roles article>*+* {
-    margin-top: 8px;
+    margin-top: 0;
   }
   .roles h3 {
     font-size: 100%;
