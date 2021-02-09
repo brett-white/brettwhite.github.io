@@ -228,7 +228,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 20px;
     font-weight: bold;
   }
-  main h1 {
+  .sidebar h1 {
     margin-bottom: 24px;
   }
   .invert {
@@ -421,11 +421,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       display: flex;
       flex-wrap: wrap;
     }
-    .flex-one-third {
+    .sidebar {
       flex: 0 0 30%;
-      padding: 16px 16px 16px 0;
+      padding: 0 16px 0 0;
     }
-    .flex-two-thirds { 
+    .content { 
       flex: 0 0 70%;
     }
     .flex-align-right {
