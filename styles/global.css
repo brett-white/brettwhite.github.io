@@ -21,7 +21,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   body:before {
     content: '';
-    display: none;
+    visibility: none;
+    opacity: 0;
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -30,6 +31,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-size: auto 100%;
     background-position: fixed;
     background-repeat: no-repeat;
+    transition: all 300ms ease-out;
   }
   * {
     color: inherit;
@@ -144,7 +146,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     flex-flow: row wrap;
     position: relative;
     width: 100%;
-    /* background: #fff; */
+    transition: all 300ms ease-out;
   }
   #hero .bio > * + * {
     margin-top: 16px;
@@ -218,6 +220,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   article > * + * {
     margin-top: 16px;
+  }
+  main {
+    position: relative;
   }
   main .col article h1 {
     font-size: 20px;
@@ -377,10 +382,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .listing.awards li {
     flex: 0 0 33%;
   }
-  @media only screen and (min-width: 960px) {
+
+  @media only screen and (min-width: 720px) {
     body:before {
-      display: block;
+      visibility: visible;
       background-image: url(../images/brett-white-half.jpg);
+      opacity: 1;
     }
     .container {
       max-width: 1200px;
@@ -389,37 +396,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     #hero {
       display: flex;
       flex-wrap: wrap;
-      height: 100vh;
-      padding: 120px 48px;
-    }
-    .flex-row {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .flex-row-reverse {
-      flex-direction: row-reverse; 
-    }
-    .flex-one-third {
-      flex: 0 0 34%;
-    }
-    .flex-two-thirds {
-      flex: 0 0 66%;
-    }
-    .flex-align-right {
-      margin-left: auto;
-    }
-    .flex-align-left {
-      margin-right: auto;
-    }
-    .border-top-solid {
-      border-top: solid 1px white;
-    }
-    .bio {
-      align-self: center;
-    }
-    main {
-      position: relative;
-      margin-top: -120px;
+      height: 90vh;
+      padding: 48px;
+      background-color: rgba(255,255,255,0.8);
     }
     .theme-light {
       background: rgba(255,255,255,0.8);
@@ -435,11 +414,47 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       filter: saturate(1);
       transform: scale(1.1);
     }
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .flex-one-third {
+      flex: 0 0 30%;
+      padding: 16px 16px 16px 0;
+    }
+    .flex-two-thirds { 
+      flex: 0 0 70%;
+    }
+    .flex-align-right {
+      margin-left: auto;
+    }
+    .flex-align-left {
+      margin-right: auto;
+    }
     .listing li {
-      flex: 0 0 25%;
+      flex: 0 0 33%;
     }
     .listing.press li {
       flex: 0 0 50%;
+    }
+    .listing.awards li {
+      flex: 0 0 25%;
+    }
+  }
+
+  @media only screen and (min-width: 880px) {
+    body:before {
+      opacity: 1;
+    }
+    #hero {
+      padding: 120px 48px;
+      background-color: transparent;
+    }
+    .bio {
+      align-self: center;
+    }
+    .listing li {
+      flex: 0 0 25%;
     }
     .listing.awards li {
       flex: 0 0 20%;
