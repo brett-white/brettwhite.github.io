@@ -398,7 +398,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex-wrap: wrap;
       min-height: 80vh;
       padding: 48px;
-      background-color: rgba(255,255,255,0.8);
+      /* background-color: rgba(255,255,255,0.8); */
+    }
+    .bio {
+      align-self: center;
     }
     .theme-light {
       background: rgba(255,255,255,0.8);
@@ -448,10 +451,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     #hero {
       padding: 120px 48px;
-      background-color: transparent;
-    }
-    .bio {
-      align-self: center;
+      /* background-color: transparent; */
     }
     .listing li {
       flex: 0 0 25%;
