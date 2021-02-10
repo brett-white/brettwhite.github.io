@@ -159,6 +159,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   #hero .bio h2 {
     margin-top: 24px;
   }
+  #hero .bio .social {
+    margin-top: 24px;
+    margin-left: -12px;
+  }
   figure:after {
     content: '';
     display: table;
@@ -280,19 +284,40 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     transform: scale(1.2);
   }
   .social .twitter {
-    background-image: url(../images/social-twitter.svg);
+    background-image: url(../images/social-twitter-white.svg);
   }
   .social .linkedin {
-    background-image: url(../images/social-linkedin.svg);
+    background-image: url(../images/social-linkedin-white.svg);
   }
   .social .behance {
-    background-image: url(../images/social-behance.svg);
+    background-image: url(../images/social-behance-white.svg);
   }
   .social .dribbble {
-    background-image: url(../images/social-dribbble.svg);
+    background-image: url(../images/social-dribbble-white.svg);
+  }
+  .social .github {
+    background-image: url(../images/social-github-white.svg);
   }
   .social .email {
-    background-image: url(../images/ic-email.svg);
+    background-image: url(../images/social-email-white.svg);
+  }
+  .social .twitter-black {
+    background-image: url(../images/social-twitter-black.svg);
+  }
+  .social .linkedin-black {
+    background-image: url(../images/social-linkedin-black.svg);
+  }
+  .social .behance-black {
+    background-image: url(../images/social-behance-black.svg);
+  }
+  .social .dribbble-black {
+    background-image: url(../images/social-dribbble-black.svg);
+  }
+  .social .github-black {
+    background-image: url(../images/social-github-black.svg);
+  }
+  .social .email-black {
+    background-image: url(../images/social-email-black.svg);
   }
   .social svg {
     width: 24px;
