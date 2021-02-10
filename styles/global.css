@@ -210,9 +210,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 100%;
     font-weight: bold;
   }
-  .roles p {
+  /* .roles p {
     text-transform: uppercase;
-  }
+  } */
   article > * {
     display: block;
   }
