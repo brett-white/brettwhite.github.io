@@ -281,7 +281,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     transition: all 300ms ease-out;
   }
   .social li a:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
   }
   .social .twitter {
     background-image: url(../images/social-twitter-white.svg);
