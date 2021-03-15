@@ -561,7 +561,7 @@
 		"oAP": "/images/book-creativity-inc.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -574,7 +574,7 @@
 		"oAP": "/images/book-elon-musk.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -587,7 +587,7 @@
 		"oAP": "/images/book-hit-refresh.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -600,7 +600,7 @@
 		"oAP": "/images/book-hunting-the-nazi-bomb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -613,7 +613,7 @@
 		"oAP": "/images/book-iwoz.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -626,7 +626,7 @@
 		"oAP": "/images/book-jony-ive.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -639,7 +639,7 @@
 		"oAP": "/images/book-let-my-people-go-surfing.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -652,7 +652,7 @@
 		"oAP": "/images/book-lost-connections.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -665,7 +665,20 @@
 		"oAP": "/images/book-mans-search-for-meaning.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-no-rules-rules.jpg": {
+		"ft": 16384,
+		"iS": 32510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-no-rules-rules.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -678,7 +691,7 @@
 		"oAP": "/images/book-principles.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -691,7 +704,7 @@
 		"oAP": "/images/book-ride-of-a-lifetime.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -704,7 +717,7 @@
 		"oAP": "/images/book-steve-jobs.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -717,7 +730,7 @@
 		"oAP": "/images/book-that-will-never-work.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -730,7 +743,7 @@
 		"oAP": "/images/book-the-everything-store.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -743,7 +756,7 @@
 		"oAP": "/images/book-the-innovation-stack.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -756,7 +769,7 @@
 		"oAP": "/images/book-the-innovators.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -769,7 +782,7 @@
 		"oAP": "/images/book-think-again.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -782,7 +795,7 @@
 		"oAP": "/images/book-tim-cook.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -795,7 +808,7 @@
 		"oAP": "/images/book-whatever-you-think-think-the-opposite.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -808,7 +821,7 @@
 		"oAP": "/images/book-wise-guy.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -969,6 +982,19 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/og-thumbnail-brettwhite.jpg": {
+		"ft": 16384,
+		"iS": 74899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/og-thumbnail-brettwhite.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/opinion-linkedin-20200226.jpg": {
 		"ft": 16384,
@@ -1139,6 +1165,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/press-african-retail-20210222.jpg": {
+		"ft": 16384,
+		"iS": 55574,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-african-retail-20210222.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/press-bizcommunity-20201019.jpg": {
 		"ft": 16384,
 		"iS": 56236,
@@ -1158,6 +1197,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/press-bizcommunity-20210211.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-bizcommunity-20210310.jpg": {
+		"ft": 16384,
+		"iS": 62975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-bizcommunity-20210310.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
