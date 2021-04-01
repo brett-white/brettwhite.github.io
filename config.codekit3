@@ -1539,6 +1539,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/video-fintech-summit.jpg": {
+		"ft": 16384,
+		"iS": 82719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-fintech-summit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
