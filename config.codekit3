@@ -553,6 +553,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/book-atomic-habits-by-james-clear.jpg": {
+		"ft": 16384,
+		"iS": 53576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-atomic-habits-by-james-clear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-creativity-inc.jpg": {
 		"ft": 16384,
 		"iS": 185160,
@@ -1043,7 +1056,7 @@
 		"oAP": "/images/podcast-business-wars.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1056,7 +1069,7 @@
 		"oAP": "/images/podcast-design-details.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1069,7 +1082,7 @@
 		"oAP": "/images/podcast-how-i-built-this.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1082,7 +1095,7 @@
 		"oAP": "/images/podcast-inside-intercom.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1095,7 +1108,7 @@
 		"oAP": "/images/podcast-pivot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1108,7 +1121,20 @@
 		"oAP": "/images/podcast-postlight.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/podcast-recode-daily-by-vox.jpg": {
+		"ft": 16384,
+		"iS": 20712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-recode-daily-by-vox.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1121,7 +1147,7 @@
 		"oAP": "/images/podcast-remarkable-people.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1134,7 +1160,7 @@
 		"oAP": "/images/podcast-shop-talk-show.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1147,7 +1173,7 @@
 		"oAP": "/images/podcast-tech-meme-ride-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1160,7 +1186,7 @@
 		"oAP": "/images/podcast-tech-news-briefing.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1538,19 +1564,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/images/video-fintech-summit.jpg": {
-		"ft": 16384,
-		"iS": 82719,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/video-fintech-summit.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
 		},
 	"/index.html": {
 		"cB": 0,
