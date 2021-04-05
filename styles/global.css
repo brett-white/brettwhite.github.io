@@ -121,31 +121,38 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   nav {
     position: fixed;
-    visibility: hidden;
-    bottom: 16px;
-    left: 16px;
-    right: 66%;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 999;
     background: rgba(255,255,255,0.9);
-    padding: 16px 32px;
     display: flex;
     flex-wrap: nowrap;
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    color: black;
+  }
+  nav .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   nav .menu {
-    margin-left: auto;
     display: flex;
     list-style: none;
-    display: flex;
     flex-flow: row wrap;
+  }
+  nav .menu li {
+    margin: 0;
+  }
+  nav .menu li a {
+    display: block;
+    padding: 16px;
+    line-height: 16px;
   }
   header {
     color: black;
     position: relative;
     z-index: 10;
   }
-  #hero {
+  .hero {
     display: flex;
     background-color: white;
     flex-flow: row wrap;
@@ -153,13 +160,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     z-index: 10;
     width: 100%;
   }
-  #hero .bio > * + * {
+  .hero .bio > * + * {
     margin-top: 16px;
   }
-  #hero .bio h2 {
+  .hero .bio h2 {
     margin-top: 24px;
   }
-  #hero .bio .social {
+  .hero .bio .social {
     margin-top: 24px;
     margin-left: -12px;
   }
