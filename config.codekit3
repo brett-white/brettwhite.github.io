@@ -722,6 +722,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-seeing-around-corners-by-rita-mcgrath.jpg": {
+		"ft": 16384,
+		"iS": 32916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-seeing-around-corners-by-rita-mcgrath.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-steve-jobs.jpg": {
 		"ft": 16384,
 		"iS": 329559,
@@ -1353,6 +1366,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/press-it-web-20200615.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-it-web-20210601.jpg": {
+		"ft": 16384,
+		"iS": 60411,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-it-web-20210601.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
