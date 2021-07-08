@@ -25,6 +25,14 @@
 		"oAP": "/_ARCHIVE/index copy 2.html",
 		"oF": 0
 		},
+	"/_ARCHIVE/index copy 20210708.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index copy 20210708.html",
+		"oF": 0
+		},
 	"/_ARCHIVE/index copy.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -722,6 +730,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-samsung-rising-by-geoffrey-cain.jpg": {
+		"ft": 16384,
+		"iS": 17323,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-samsung-rising-by-geoffrey-cain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-seeing-around-corners-by-rita-mcgrath.jpg": {
 		"ft": 16384,
 		"iS": 32916,
@@ -741,6 +762,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/book-steve-jobs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-super-pumped-by-mike-isaac.jpg": {
+		"ft": 16384,
+		"iS": 33620,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-super-pumped-by-mike-isaac.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1230,6 +1264,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/press-bizcomminity-20210706.jpg": {
+		"ft": 16384,
+		"iS": 65572,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-bizcomminity-20210706.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/press-bizcommunity-20201019.jpg": {
 		"ft": 16384,
 		"iS": 56236,
@@ -1379,6 +1426,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/press-it-web-20210601.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-tech-financials-20210629.jpg": {
+		"ft": 16384,
+		"iS": 55239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-tech-financials-20210629.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1631,6 +1691,28 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/scripts/_ga.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/scripts/_ga-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/scripts/easing.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/easing-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/scripts/global-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1649,6 +1731,39 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/scripts/global-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/scripts/modernizr.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/modernizr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/scripts/scroll-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/scroll-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/scripts/scroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
