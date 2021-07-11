@@ -373,11 +373,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .roles article>*+* {
     margin-top: 0;
   }
+  .roles h1 {
+    font-weight: bold;
+  }
   .roles h3 {
     font-size: 100%;
     font-weight: bold;
   }
-  .roles a {
+  .roles p a {
     font-weight: normal;
   }
   .cv {
@@ -388,7 +391,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     line-height: 120%;
     font-weight: bold;
   }
-  .cv h3 {
+  .cv h2 {
     font-size: 20px;
     line-height: 32px;
     font-weight: normal;
