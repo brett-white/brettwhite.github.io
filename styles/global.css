@@ -86,10 +86,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     right: -4px;
     bottom: 0;
     height: 100%;
-    width: 2px;
+    width: 3px;
     background: black;
-    -webkit-animation: cursorAnimation 1.5s step-end infinite;
-    animation: cursorAnimation 1.5s step-end infinite;
+    -webkit-animation: cursorAnimation 1.2s step-end infinite;
+    animation: cursorAnimation 1.2s step-end infinite;
   }
   @keyframes cursorAnimation {
       0% {
@@ -343,6 +343,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .roles {
     width: 100%;
+    margin-top: 48px;
   }
   .roles li {
     display: block;
@@ -374,6 +375,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .cv {
     margin-bottom: 48px;
+  }
+  .cv h1.large {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: bold;
   }
   /* .roles p {
     text-transform: uppercase;
