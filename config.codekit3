@@ -600,6 +600,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-hatching-twitter-by-nick-bilton.jpg": {
+		"ft": 16384,
+		"iS": 64710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-hatching-twitter-by-nick-bilton.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-hit-refresh.jpg": {
 		"ft": 16384,
 		"iS": 32936,
