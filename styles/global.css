@@ -112,7 +112,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 48px 24px;
+    padding: 80px 24px;
   }
   nav {
     position: fixed;
@@ -139,15 +139,15 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .logo h1 span {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
-    min-width: 28px;
+    min-width: 32px;
     text-align: center;
   }
   .logo h1 > span {
     display: block;
     float: left;
-    padding: 2px 6px;
+    padding: 4px 8px;
     border: solid 2px black;
   }
   .logo .blackOnWhite {
@@ -162,7 +162,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: none;
   }
   nav .container {
-    padding: 8px 16px;
+    padding: 16px;
   }
   nav .menu {
     display: flex;
@@ -178,8 +178,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   nav .menu li a {
     display: block;
     padding: 8px;
-    font-size: 12px;
-    line-height: 12px;
+    line-height: 16px;
     transition: all 300ms ease-out;
   }
   nav .menu li a:hover {
@@ -218,7 +217,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     transform: scale(1.1);
   }
   .hero .container {
-    margin-top: 44px;
+    margin-top: 64px;
   }
   .hero .social {
     position: fixed;
