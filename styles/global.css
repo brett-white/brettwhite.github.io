@@ -298,6 +298,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: inline-block;
     position: relative;
   }
+  .hero .bio p {
+    font-size: 20px;
+    line-height: 32px;
+  }
   #slogan h1,
   h1.slogan {
     font-weight: bold;
@@ -373,6 +377,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 100%;
     font-weight: bold;
   }
+  .roles a {
+    font-weight: normal;
+  }
   .cv {
     margin-bottom: 48px;
   }
@@ -380,6 +387,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 48px;
     line-height: 120%;
     font-weight: bold;
+  }
+  .cv h3 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
   }
   /* .roles p {
     text-transform: uppercase;
