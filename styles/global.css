@@ -423,6 +423,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     text-transform: capitalize;
     margin-bottom: 24px;
   }
+  .sidebar p {
+    margin-bottom: 24px;
+  }
   .invert {
     background: black;
   }
