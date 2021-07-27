@@ -530,8 +530,15 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 100%;
     height: 100%;
   }
+  ul.awards.listing {
+    border: none;
+    padding: 0;
+  }
   .listing.awards li {
     flex: 0 0 33%;
+    border: none;
+    padding: 0;
+    margin: 0;
   }
 
   @media only screen and (min-width: 800px) {
