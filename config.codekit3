@@ -1558,6 +1558,96 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/sketch-coffee.gif": {
+		"ft": 4194304,
+		"iS": 24071,
+		"oA": 0,
+		"oAP": "/images/sketch-coffee.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-kindle.gif": {
+		"ft": 4194304,
+		"iS": 42321,
+		"oA": 0,
+		"oAP": "/images/sketch-kindle.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-laptop.gif": {
+		"ft": 4194304,
+		"iS": 30206,
+		"oA": 0,
+		"oAP": "/images/sketch-laptop.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-lightbulb.gif": {
+		"ft": 4194304,
+		"iS": 6535,
+		"oA": 0,
+		"oAP": "/images/sketch-lightbulb.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-pencil-flip.gif": {
+		"ft": 4194304,
+		"iS": 47716,
+		"oA": 0,
+		"oAP": "/images/sketch-pencil-flip.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-pencil.gif": {
+		"ft": 4194304,
+		"iS": 5970,
+		"oA": 0,
+		"oAP": "/images/sketch-pencil.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-pop.gif": {
+		"ft": 4194304,
+		"iS": 5431,
+		"oA": 0,
+		"oAP": "/images/sketch-pop.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-squiggle.gif": {
+		"ft": 4194304,
+		"iS": 5666,
+		"oA": 0,
+		"oAP": "/images/sketch-squiggle.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/sketch-transform.gif": {
+		"ft": 4194304,
+		"iS": 27939,
+		"oA": 0,
+		"oAP": "/images/sketch-transform.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
 	"/images/social-behance-black.svg": {
 		"ft": 2097152,
 		"miP": 0,
