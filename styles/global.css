@@ -540,56 +540,62 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 0;
     margin: 0;
   }
+  .sketches {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms ease-out;
+  }
   .sketch {
     position: fixed;
   }
   .sketch.coffee {
     width: 64px;
     height: auto;
-    top: 44%;
-    left: 10%;
+    top: 46%;
+    left: 12%;
   }
   .sketch.laptop {
     width: auto;
     height: 80px;
     top: 30%;
-    left: 18%;
+    left: 20%;
   }
   .sketch.pencil {
     width: auto;
     height: 88px;
     top: 16%;
-    left: 14%;
+    left: 16%;
   }
   .sketch.kindle {
     width: auto;
     height: 80px;
     top: 44%;
-    left: 16%;
+    left: 18%;
   }
   .sketch.transform {
     width: auto;
     height: 104px;
     top: 32%;
-    left: 10%;
+    left: 11%;
   }
   .sketch.squiggle {
     width: 48px;
     height: auto;
     top: 10%;
-    left: 5%;
+    left: 6%;
   }
   .sketch.pop {
     width: 48px;
     height: auto;
     top: 24%;
-    left: 10%;
+    left: 12%;
   }
   .sketch.lightbulb {
     width: 64px;
     height: auto;
     top: 12%;
-    left: 8%;
+    left: 10%;
   }
 
   @media only screen and (min-width: 800px) {
@@ -696,6 +702,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   @media only screen and (min-width: 960px) {
     h1.slogan {
       font-size: 60px;
+    }
+  }
+
+  @media (min-width: 1120px) and (min-height: 720px) {
+    .sketches {
+      display: block;
+      visibility: visible;
+      opacity: 1;
     }
   }
 
