@@ -724,3 +724,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       font-size: 80px;
     }
   }
+
+  @media (min-width: 1280px) and (min-height: 960px) {
+    .sketch {
+      transform: scale(1);
+    }
+  }
