@@ -553,31 +553,31 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketch.coffee {
     width: 64px;
     height: auto;
-    top: 46%;
+    top: 48%;
     left: 12%;
   }
   .sketch.laptop {
     width: auto;
     height: 80px;
-    top: 30%;
+    top: 32%;
     left: 20%;
   }
   .sketch.pencil {
     width: auto;
     height: 88px;
-    top: 16%;
+    top: 18%;
     left: 16%;
   }
   .sketch.kindle {
     width: auto;
     height: 80px;
-    top: 44%;
+    top: 46%;
     left: 18%;
   }
   .sketch.transform {
     width: auto;
     height: 104px;
-    top: 32%;
+    top: 34%;
     left: 11%;
   }
   .sketch.squiggle {
