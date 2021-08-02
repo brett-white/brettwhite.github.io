@@ -541,13 +541,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin: 0;
   }
   .sketches {
-    display: none;
     visibility: hidden;
     opacity: 0;
     transition: all 300ms ease-out;
   }
   .sketch {
     position: fixed;
+    transform: scale(0.5);
+    transition: all 300ms ease-out;
   }
   .sketch.coffee {
     width: 64px;
@@ -582,7 +583,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketch.squiggle {
     width: 48px;
     height: auto;
-    top: 10%;
+    top: 12%;
     left: 6%;
   }
   .sketch.pop {
@@ -594,7 +595,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketch.lightbulb {
     width: 64px;
     height: auto;
-    top: 12%;
+    top: 14%;
     left: 10%;
   }
 
@@ -705,11 +706,16 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media (min-width: 1120px) and (min-height: 720px) {
+  @media (min-width: 920px) and (min-height: 560px) {
     .sketches {
-      display: block;
       visibility: visible;
       opacity: 1;
+    }
+  }
+
+  @media (min-width: 1120px) and (min-height: 720px) {
+    .sketch {
+      transform: scale(0.75);
     }
   }
 
