@@ -569,6 +569,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/book-an-ugly-truth-by-sheera-frenkel-and-cecilia-kang.jpg": {
+		"ft": 16384,
+		"iS": 46912,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-an-ugly-truth-by-sheera-frenkel-and-cecilia-kang.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-atomic-habits-by-james-clear.jpg": {
 		"ft": 16384,
 		"iS": 53576,
@@ -1343,6 +1356,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/press-bizcommunity-20210310.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-bizcommunity-20210803.jpg": {
+		"ft": 16384,
+		"iS": 69526,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-bizcommunity-20210803.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
