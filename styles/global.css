@@ -220,19 +220,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 64px;
   }
   .hero .social {
-    position: fixed;
-    bottom: 24px;
-    left: 24px;
-    width: 48px;
+    display: block;
+    margin-left: -8px;
   }
   .hero .social li {
     margin-right: 0;
     margin-top: 8px;
-  }
-  .hero .social li a {
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 8px;
-    overflow: hidden;
   }
   .social .twitter {
     background-image: url(../images/social-twitter-white.svg);
@@ -643,8 +636,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .hero .container {
       margin-top: 0;
     }
-    h1.slogan {
-      /* font-size: 60px; */
+    .hero .social {
+      display: none;
     }
     .bio {
       align-self: center;
