@@ -868,6 +868,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-the-hard-thing-about-hard-things-by-ben-horowitz.jpg": {
+		"ft": 16384,
+		"iS": 53109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-the-hard-thing-about-hard-things-by-ben-horowitz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-the-innovation-stack.jpg": {
 		"ft": 16384,
 		"iS": 111448,
