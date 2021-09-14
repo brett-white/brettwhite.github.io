@@ -267,6 +267,33 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 24px;
     height: 24px;
   }
+  .btn-linkedin {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 8px;
+    line-height: 0;
+  }
+  .btn-linkedin:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    background-image: url(../images/social-linkedin-black.svg);
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .btn-label {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+  }
   header {
     color: black;
     position: relative;
@@ -377,7 +404,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: normal;
   }
   .cv {
-    margin-bottom: 48px;
+    margin: 48px auto;
   }
   .cv h1.large {
     font-size: 48px;
@@ -666,6 +693,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .content { 
       flex: 0 0 70%;
+    }
+    .cv {
+      margin-top: 0;
     }
     .flex-align-right {
       margin-left: auto;
