@@ -670,10 +670,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       align-self: center;
     }
     .theme-light {
-      background: rgba(255,255,255,0.9);
+      /* background: rgba(255,255,255,0.9); */
+      background: white;
     }
     .theme-dark {
-      background: rgba(0,0,0,0.9);
+      /* background: rgba(0,0,0,0.9); */
+      background: black;
     }
     .thumb {
       filter: saturate(0);
