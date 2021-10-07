@@ -433,6 +433,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   main {
     position: relative;
     z-index: 100;
+    background: white;
   }
   main .col article h1 {
     font-size: 20px;
