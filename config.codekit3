@@ -647,6 +647,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-human-kind-by-rutger-bregman.jpg": {
+		"ft": 16384,
+		"iS": 38468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-human-kind-by-rutger-bregman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-hunting-the-nazi-bomb.jpg": {
 		"ft": 16384,
 		"iS": 27571,
