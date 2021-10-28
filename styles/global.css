@@ -13,7 +13,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     background-color: white;
     color: white;
@@ -74,6 +74,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-size: 18px;
     line-height: 20px;
     /* font-weight: 700; */
+  }
+  hr {
+    margin: 48px 0 !important;
   }
   .typewrite-container {
     min-width: 210px;
