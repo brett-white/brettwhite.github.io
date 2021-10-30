@@ -980,6 +980,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-zero-to-one-by-peter-thiel.jpg": {
+		"ft": 16384,
+		"iS": 33795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-zero-to-one-by-peter-thiel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/brett-white-half-blur.jpg": {
 		"ft": 16384,
 		"iS": 73756,
