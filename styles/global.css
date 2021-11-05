@@ -181,6 +181,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   nav .menu li a {
     display: block;
     padding: 8px;
+    font-size: 14px;
     line-height: 16px;
     transition: all 300ms ease-out;
   }
@@ -530,6 +531,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .listing.press article {
     padding: 0;
   }
+  .hero .listing.books {
+    
+  }
   .thumb {
     border-radius: 8px;
     border: solid 8px white;
@@ -563,6 +567,30 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border: none;
     padding: 0;
     margin: 0;
+  }
+  .hero .reading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero .reading .thumb {
+    width: 64px;
+    margin-right: 24px;
+    border-width: 4px;
+  }
+  .hero .reading .info {
+    /* align-self: center; */
+  }
+  .hero .reading p {
+    font-size: 11px;
+  }
+  .hero .reading h1 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  .hero .reading h2 {
+    font-size: 14px;
+    line-height: 16px;
   }
   .sketches {
     visibility: hidden;
@@ -636,7 +664,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       display: flex;
       flex-wrap: wrap;
       min-height: 100vh;
-      padding: 48px;
+      padding: 48px 0;
       background-color: transparent;
       /* background-color: rgba(255,255,255,0.8); */
     }
@@ -689,6 +717,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       filter: saturate(1);
       transform: scale(1.1);
       box-shadow: 0px 16px 32px rgba(0,0,0,0.2);
+      cursor: pointer;
     }
     .flex-row {
       display: flex;
@@ -727,6 +756,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .listing.awards li {
       flex: 0 0 20%;
+    }
+    .hero .reading {
+      width: 50%;
     }
   }
 
