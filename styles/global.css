@@ -316,7 +316,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .hero .bio h1 {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 120%;
   }
   .hero .bio h1 span {
     display: inline-block;
@@ -411,7 +411,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin: 48px auto;
   }
   .cv h1.large {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 120%;
     font-weight: bold;
   }
@@ -700,10 +700,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .hero .bio h1 {
       font-size: 48px;
-      line-height: 56px;
     }
     .bio {
       align-self: center;
+    }
+    .cv h1.large {
+      font-size: 48px;
     }
     .theme-light {
       /* background: rgba(255,255,255,0.9); */
