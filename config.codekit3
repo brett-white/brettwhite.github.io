@@ -81,6 +81,14 @@
 		"oAP": "/_ARCHIVE/index-backup.html",
 		"oF": 0
 		},
+	"/_ARCHIVE/index-reading.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-reading.html",
+		"oF": 0
+		},
 	"/_ARCHIVE/index-resume.html": {
 		"cB": 0,
 		"ft": 8192,
