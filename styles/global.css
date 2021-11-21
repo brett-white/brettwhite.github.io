@@ -315,8 +315,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
   }
   .hero .bio h1 {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 48px;
   }
   .hero .bio h1 span {
     display: inline-block;
