@@ -315,8 +315,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
   }
   .hero .bio h1 {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 44px;
   }
   .hero .bio h1 span {
     display: inline-block;
@@ -583,12 +583,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .hero .reading p {
     font-size: 11px;
   }
-  .hero .reading h1 {
+  .hero .bio .reading h1 {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
   }
-  .hero .reading h2 {
+  .hero .bio .reading h2 {
     font-size: 14px;
     line-height: 16px;
   }
@@ -697,6 +697,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .hero .social {
       display: none;
+    }
+    .hero .bio h1 {
+      font-size: 48px;
+      line-height: 56px;
     }
     .bio {
       align-self: center;
