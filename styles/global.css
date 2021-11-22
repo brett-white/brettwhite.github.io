@@ -128,6 +128,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background: white;
   }
   nav .container {
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
     padding: 16px;
     /* background: rgba(255,255,255,0.9); */
@@ -193,6 +195,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   nav .social {
     display: none;
+    margin-left: 8px;
   }
   footer .social {
     margin-left: -12px;
@@ -218,6 +221,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-position: center;
     background-repeat: no-repeat;
     transition: all 300ms ease-out;
+  }
+  nav .social li a {
+    width: 32px;
+    height: 32px;
+    background-size: 16px;
   }
   .social li a:hover {
     transform: scale(1.1);
@@ -274,8 +282,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .btn-linkedin {
     display: inline-block;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     padding: 8px 16px;
     border-radius: 8px;
     line-height: 0;
@@ -288,7 +296,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     height: 20px;
     margin: 0 4px 0 0;
     padding: 0;
-    background-image: url(../images/social-linkedin-black.svg);
+    background-image: url(../images/social-linkedin-white.svg);
     background-size: 16px;
     background-position: center;
     background-repeat: no-repeat;
@@ -466,7 +474,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   #skills {
     background: #eee;
   }
-  
+  footer .container {
+    padding: 24px;
+  }
   /* footer:after {
     content: '';
     display: table;
@@ -652,6 +662,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     left: 10%;
   }
 
+  @media only screen and (min-width: 400px) {
+    nav .social {
+      display: flex;
+    }
+  }
+
   @media only screen and (min-width: 800px) {
     body:before {
       visibility: visible;
@@ -690,34 +706,29 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       margin-left: 0;
     }
     nav .social {
-      display: block;
-      margin: 0 16px;
+      margin-left: 16px;
+      margin-right: 24px;
     }
-    .social li a {
+    .social li a,
+    nav .social li a {
+      width: 48px;
+      height: 48px;
       background-size: 20px;
     }
     .hero .container {
       margin-top: 0;
-      padding-right: 10%;
     }
     .hero .social {
       display: none;
     }
-    /* .hero .bio h1 {
-      font-size: 48px;
-    } */
     .bio {
       align-self: center;
+      padding-right: 10%;
     }
-    /* .cv h1.large {
-      font-size: 48px;
-    } */
     .theme-light {
-      /* background: rgba(255,255,255,0.9); */
       background: white;
     }
     .theme-dark {
-      /* background: rgba(0,0,0,0.9); */
       background: black;
     }
     .thumb {
@@ -758,6 +769,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .listing.awards li {
       flex: 0 0 25%;
+    }
+    footer .container {
+      padding: 48px;
     }
   }
 
