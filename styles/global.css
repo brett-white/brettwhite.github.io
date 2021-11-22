@@ -699,6 +699,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .hero .container {
       margin-top: 0;
+      padding-right: 10%;
     }
     .hero .social {
       display: none;
