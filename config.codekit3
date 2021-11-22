@@ -1014,12 +1014,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/brett-white-half-blur.jpg": {
+	"/images/brett-white-avatar.jpg": {
 		"ft": 16384,
-		"iS": 73756,
+		"iS": 27845,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/brett-white-half-blur.jpg",
+		"oAP": "/images/brett-white-avatar.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1033,32 +1033,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/brett-white-half.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/brett-white-halftone.jpg": {
-		"ft": 16384,
-		"iS": 126363,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/brett-white-halftone.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/brett-white-split.jpg": {
-		"ft": 16384,
-		"iS": 245972,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/brett-white-split.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

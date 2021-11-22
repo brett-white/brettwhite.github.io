@@ -115,7 +115,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 80px 24px;
+    padding: 80px 16px;
   }
   nav {
     position: fixed;
@@ -137,7 +137,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .logo {
     float: left;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     /* position: fixed;
     top: 24px;
     left: 24px; */
@@ -170,7 +170,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 16px;
   }
   nav .menu {
-    display: flex;
+    display: none;
     list-style: none;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -334,6 +334,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .hero .bio p {
     font-size: 20px;
     line-height: 32px;
+  }
+  .hero .avatar {
+    width: 80px;
+    height: auto;
   }
   #slogan h1,
   h1.slogan {
@@ -666,6 +670,15 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     nav .social {
       display: flex;
     }
+    .container {
+      padding: 80px 24px;
+    }
+    nav .container {
+      padding: 16px 24px;
+    }
+    nav .menu {
+      display: flex;
+    }
   }
 
   @media only screen and (min-width: 800px) {
@@ -685,9 +698,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       background-color: transparent;
       /* background-color: rgba(255,255,255,0.8); */
     }
-    .logo {
-      margin-left: 32px;
-    }
     .logo h1 span {
       font-size: 24px;
       line-height: 32px;
@@ -699,7 +709,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       float: right;
     }
     nav .container {
-      padding: 16px;
+      padding: 16px 48px;
     }
     nav .menu li a {
       padding: 16px;
@@ -707,7 +717,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     nav .social {
       margin-left: 16px;
-      margin-right: 24px;
     }
     .social li a,
     nav .social li a {
@@ -719,6 +728,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       margin-top: 0;
     }
     .hero .social {
+      display: none;
+    }
+    .hero .avatar {
       display: none;
     }
     .bio {
