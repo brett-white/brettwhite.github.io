@@ -19,7 +19,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     color: white;
     fill: white;
   }
-  body:before {
+  /* body:before {
     content: '';
     visibility: none;
     position: fixed;
@@ -32,7 +32,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-size: auto 100%;
     background-position: fixed;
     background-repeat: no-repeat;
-  }
+  } */
   * {
     color: inherit;
     fill: inherit;
@@ -682,21 +682,25 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
 
   @media only screen and (min-width: 800px) {
-    body:before {
+    /* body:before {
       visibility: visible;
       background-image: url(../images/brett-white-half.jpg);
-    }
+    } */
     .container {
       max-width: 1200px;
       padding: 120px 48px;
     }
-    #hero {
+    .hero {
       display: flex;
       flex-wrap: wrap;
       min-height: 100vh;
       padding: 48px 0;
-      background-color: transparent;
-      /* background-color: rgba(255,255,255,0.8); */
+      background-color: white;
+      background-image: url(../images/brett-white-half.jpg);
+      background-size: auto 100%;
+      background-position: 0 8vh;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
     }
     .logo h1 span {
       font-size: 24px;
