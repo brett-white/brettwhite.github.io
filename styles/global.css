@@ -690,9 +690,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       margin-top: 0;
       flex: 0 0 100%;
     }
-    .bio {
+    .content.bio {
       align-self: center;
-      flex: 0 0 70%;
+      flex: 0 0 60%;
       margin-left: auto;
       text-align: right;
     }
@@ -769,7 +769,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex: 0 0 70%;
     }
     .content.bio {
-      flex: 0 0 60%;
+      flex: 0 0 70%;
     }
     .cv {
       margin-top: 0;
@@ -813,9 +813,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
 
   @media only screen and (min-width: 1080px) {
-    .bio {
+    .content.bio {
       padding-right: 10%;
       text-align: left;
+      flex: 0 0 60%;
     }
   }
 
@@ -823,9 +824,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .sketches {
       display: block;
     }
-    .content.bio {
+    /* .content.bio {
       flex: 0 0 60%;
-    }
+    } */
   }
 
   @media only screen and (min-width: 1160px) {
