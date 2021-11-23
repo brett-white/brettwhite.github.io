@@ -768,6 +768,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .content { 
       flex: 0 0 70%;
     }
+    .content.bio {
+      flex: 0 0 60%;
+    }
     .cv {
       margin-top: 0;
     }
@@ -820,8 +823,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .sketches {
       display: block;
     }
-    .bio {
-      flex: 0 0 70%;
+    .content.bio {
+      flex: 0 0 60%;
     }
   }
 
