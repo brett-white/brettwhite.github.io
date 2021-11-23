@@ -184,11 +184,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .social li a:hover {
     transform: scale(1.1);
   }
-  header .container {
-    margin-top: 64px;
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
   .social .twitter {
     background-image: url(../images/social-twitter-white.svg);
   }
@@ -263,9 +258,18 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     z-index: 10;
     width: 100%;
     color: black;
-    background-color: white;
-    min-height: 60vh;
+    height: 90vh;
     padding: 48px 0;
+  }
+  header:before {
+    content: '';
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90vh;
     background-image: url(../images/brett-white-cropped.jpg);
     background-repeat: no-repeat;
     background-size: auto 40%;
@@ -276,6 +280,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: flex;
     margin-top: 0;
     flex: 0 0 100%;
+    margin-top: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   header .bio > * + * {
     margin-top: 24px;
@@ -517,8 +524,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       display: flex;
     }
     header {
-      min-height: 80vh;
       padding: 48px 0;
+    }
+    header:before {
       background-size: auto 60%;
     }
     header .container {
@@ -542,7 +550,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       max-width: 1200px;
       padding: 120px 48px;
     }
-    header {
+    header:before {
       background-size: auto 80%;
     }
     header .container {
@@ -557,8 +565,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
 
   @media only screen and (min-width: 800px) {
     header {
-      min-height: 100vh;
-      background-attachment: fixed;
+      height: 100vh;
+    }
+    header:before {
+      height: 100vh;
     }
     .logo h1 span {
       font-size: 24px;
@@ -655,3 +665,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       display: block;
     }
   }
+
+  /* @media only screen and (min-width: 1024px) {
+    .sketches {
+      position: fixed;
+    }
+  } */
