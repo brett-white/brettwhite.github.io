@@ -608,62 +608,54 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     line-height: 16px;
   }
   .sketches {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 300ms ease-out;
+    display: none;
+    position: fixed;
+    top: 12vh;
+    left: 20vh;
   }
   .sketch {
-    position: fixed;
-    transform: scale(0.5);
+    position: relative;
+    height: auto;
+    transform: scale(0.75);
     transition: all 300ms ease-out;
   }
-  .sketch.coffee {
-    width: 64px;
-    height: auto;
-    top: 48%;
-    left: 12%;
-  }
-  .sketch.laptop {
-    width: auto;
-    height: 80px;
-    top: 32%;
-    left: 18%;
-  }
-  .sketch.pencil {
-    width: auto;
-    height: 88px;
-    top: 18%;
-    left: 16%;
-  }
-  .sketch.kindle {
-    width: auto;
-    height: 80px;
-    top: 46%;
-    left: 18%;
-  }
-  .sketch.transform {
-    width: auto;
-    height: 104px;
-    top: 34%;
-    left: 11%;
-  }
-  .sketch.squiggle {
-    width: 48px;
-    height: auto;
-    top: 12%;
-    left: 6%;
-  }
   .sketch.pop {
+    position: absolute;
     width: 48px;
-    height: auto;
-    top: 26%;
-    left: 12%;
+    top: 6vh;
+    right: 8vh;
   }
   .sketch.lightbulb {
     width: 64px;
-    height: auto;
-    top: 14%;
-    left: 10%;
+    top: 4vh;
+    right: 8vh;
+  }
+  .sketch.coffee {
+    width: 64px;
+    top: -6vh;
+    right: -10vh;
+  }
+  .sketch.laptop {
+    width: 112px;
+    top: -8vh;
+    right: 2vh;
+  }
+  .sketch.pencil {
+    width: 88px;
+    top: 2vh;
+  }
+  .sketch.kindle {
+    width: 56px;
+    top: -20vh;
+    right: -10vh;
+  }
+  .sketch.transform {
+    width: 104px;
+    top: -2vh;
+    left: -4vh;
+  }
+  .sketch.squiggle {
+    width: 48px;
   }
 
   @media only screen and (min-width: 400px) {
@@ -679,28 +671,46 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     nav .menu {
       display: flex;
     }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 80vh;
+      padding: 48px 0;
+      background-color: white;
+      background-image: url(../images/brett-white-half.jpg);
+      background-size: auto 80%;
+      background-position: 0 32vh;
+      background-repeat: no-repeat;
+    }
+    .hero .avatar {
+      display: none;
+    }
+    .hero .container {
+      display: flex;
+      margin-top: 0;
+      flex: 0 0 100%;
+    }
+    .bio {
+      align-self: center;
+      flex: 0 0 70%;
+      margin-left: auto;
+      text-align: right;
+    }
   }
 
-  @media only screen and (min-width: 800px) {
-    /* body:before {
-      visibility: visible;
-      background-image: url(../images/brett-white-half.jpg);
-    } */
+  @media only screen and (min-width: 560px) {
     .container {
       max-width: 1200px;
       padding: 120px 48px;
     }
+  }
+
+  @media only screen and (min-width: 800px) {
     .hero {
-      display: flex;
-      flex-wrap: wrap;
       min-height: 100vh;
-      padding: 48px 0;
-      background-color: white;
-      background-image: url(../images/brett-white-half.jpg);
       background-size: auto 100%;
-      background-position: 0 8vh;
+      background-position: 0 16vh;
       background-attachment: fixed;
-      background-repeat: no-repeat;
     }
     .logo h1 span {
       font-size: 24px;
@@ -728,18 +738,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       height: 48px;
       background-size: 20px;
     }
-    .hero .container {
-      margin-top: 0;
-    }
     .hero .social {
       display: none;
-    }
-    .hero .avatar {
-      display: none;
-    }
-    .bio {
-      align-self: center;
-      padding-right: 10%;
     }
     .theme-light {
       background: white;
@@ -809,16 +809,19 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media (min-width: 920px) and (min-height: 560px) {
-    .sketches {
-      visibility: visible;
-      opacity: 1;
+  @media only screen and (min-width: 1080px) {
+    .bio {
+      padding-right: 10%;
+      text-align: left;
     }
   }
 
-  @media (min-width: 1120px) and (min-height: 720px) {
-    .sketch {
-      transform: scale(0.75);
+  @media (min-width: 920px) and (min-height: 720px) {
+    .sketches {
+      display: block;
+    }
+    .bio {
+      flex: 0 0 70%;
     }
   }
 
