@@ -1027,6 +1027,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/brett-white-cropped.jpg": {
+		"ft": 16384,
+		"iS": 26200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brett-white-cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/brett-white-half-right.jpg": {
 		"ft": 16384,
 		"iS": 49076,

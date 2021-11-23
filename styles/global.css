@@ -19,20 +19,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     color: white;
     fill: white;
   }
-  /* body:before {
-    content: '';
-    visibility: none;
-    position: fixed;
-    top: 40px;
-    width: 100%;
-    height: 100vh;
-    z-index: 0;
-    background-color: white;;
-    background-image: none;
-    background-size: auto 100%;
-    background-position: fixed;
-    background-repeat: no-repeat;
-  } */
   * {
     color: inherit;
     fill: inherit;
@@ -78,33 +64,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   hr {
     margin: 48px 0 !important;
   }
-  .typewrite-container {
-    min-width: 210px;
-  }
-  .typewrite:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: -4px;
-    bottom: 0;
-    height: 100%;
-    width: 3px;
-    background: black;
-    -webkit-animation: cursorAnimation 1.2s step-end infinite;
-    animation: cursorAnimation 1.2s step-end infinite;
-  }
-  @keyframes cursorAnimation {
-      0% {
-          opacity: 1;
-      }
-      50% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
   ul li {
     margin-left: 24px;
   }
@@ -115,7 +74,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 80px 16px;
+    padding: 16px;
+  }
+  main .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   nav {
     position: fixed;
@@ -131,16 +94,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    padding: 16px;
-    /* background: rgba(255,255,255,0.9); */
-    /* border-radius: 0 0 8px 8px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .logo {
     float: left;
-    /* margin-left: 8px; */
-    /* position: fixed;
-    top: 24px;
-    left: 24px; */
   }
   .logo h1 span {
     font-weight: 700;
@@ -157,7 +115,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .logo .blackOnWhite {
     color: black;
-    /* background: white; */
   }
   .logo .whiteOnBlack {
     color: white;
@@ -165,9 +122,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .logo .hide {
     display: none;
-  }
-  nav .container {
-    padding: 16px;
   }
   nav .menu {
     display: none;
@@ -230,15 +184,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .social li a:hover {
     transform: scale(1.1);
   }
-  .hero .container {
+  header .container {
     margin-top: 64px;
-  }
-  .hero .social {
-    display: block;
-    margin-left: -8px;
-  }
-  .hero .social li {
-    margin-top: 8px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .social .twitter {
     background-image: url(../images/social-twitter-white.svg);
@@ -308,117 +257,43 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: bold;
   }
   header {
-    color: black;
+    display: flex;
+    flex-wrap: row wrap;
     position: relative;
     z-index: 10;
-  }
-  .hero {
-    display: flex;
-    background-color: white;
-    flex-flow: row wrap;
-    position: relative;
-    z-index: 100;
     width: 100%;
+    color: black;
+    background-color: white;
+    min-height: 60vh;
+    padding: 48px 0;
+    background-image: url(../images/brett-white-cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    background-position: left bottom;
+    transition: all 300ms ease-out;
   }
-  .hero .bio > * + * {
+  header .container {
+    display: flex;
+    margin-top: 0;
+    flex: 0 0 100%;
+  }
+  header .bio > * + * {
     margin-top: 24px;
   }
-  .hero .bio h1 {
+  header .bio h1 {
     font-size: 48px;
     line-height: 120%;
   }
-  .hero .bio h1 span {
+  header .bio h1 span {
     display: inline-block;
     position: relative;
   }
-  .hero .bio p {
+  header .bio p {
     font-size: 20px;
     line-height: 32px;
   }
-  .hero .avatar {
-    width: 80px;
-    height: auto;
-  }
-  #slogan h1,
-  h1.slogan {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 120%;
-  }
-  figure:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  figure svg {
-    display: block;
-    float: left;
-    width: auto;
-    max-height: 40px;
-  }
-  .dates {
-    margin: 24px 0;
-  }
-  .dates:after {
-    content: '';
-    display: block;
-    width: 16px;
-    height: 2px;
-    margin-top: 8px;
-    background: currentColor;
-  }
-  .anchor:before {
-    content: '';
-    display: none;
-    position: relative;
-    width: 8px;
-    height: 8px;
-    background: red;
-    border-radius: 50%;
-    top: -80px;
-    margin-left: 24px;
-    /* visibility: hidden; */
-  }
   section {
     width: 100%;
-  }
-  .roles {
-    width: 100%;
-    margin-top: 48px;
-  }
-  .roles li {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-  }
-  .roles li + li,
-  .roles li ul > li {
-    border-top: solid 1px #fff;
-    padding-top: 16px;
-    margin-top: 16px;
-  }
-  .roles li ul > li {
-    border-style: dashed;
-  }
-  .roles li ul {
-    border-left: solid 1px #fff;
-    padding-left: 24px;
-  }
-  .roles article > h1 {
-    margin-bottom: 8px;
-  }
-  .roles article>*+* {
-    margin-top: 0;
-  }
-  .roles h1 {
-    font-weight: bold;
-  }
-  .roles h3 {
-    font-size: 100%;
-    font-weight: bold;
-  }
-  .roles p a {
-    font-weight: normal;
   }
   .cv {
     margin: 48px auto;
@@ -433,9 +308,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     line-height: 32px;
     font-weight: normal;
   }
-  /* .roles p {
-    text-transform: uppercase;
-  } */
   article > * {
     display: block;
   }
@@ -479,23 +351,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background: #eee;
   }
   footer .container {
-    padding: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
-  /* footer:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  footer .social,
-  .sidebar .social {
-    margin-left: -16px;
-  }
-  footer .social li,
-  .sidebar .social li {
-    display: inline-block;
-    float: none;
-    margin: 0 8px;
-  } */
   .button {
     display: inline-block;
     font-size: 16px;
@@ -546,9 +404,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .listing.press article {
     padding: 0;
   }
-  .hero .listing.books {
-    
-  }
   .thumb {
     border-radius: 8px;
     border: solid 8px white;
@@ -583,34 +438,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 0;
     margin: 0;
   }
-  .hero .reading {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .hero .reading .thumb {
-    width: 64px;
-    margin-right: 24px;
-    border-width: 4px;
-  }
-  .hero .reading .info {
-    /* align-self: center; */
-  }
-  .hero .reading p {
-    font-size: 11px;
-  }
-  .hero .bio .reading h1 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: bold;
-  }
-  .hero .bio .reading h2 {
-    font-size: 14px;
-    line-height: 16px;
-  }
   .sketches {
     display: none;
     position: fixed;
-    top: 12vh;
+    bottom: 8vh;
     left: 20vh;
   }
   .sketch {
@@ -627,7 +458,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .sketch.lightbulb {
     width: 64px;
-    top: 4vh;
+    top: 8vh;
     right: 8vh;
   }
   .sketch.coffee {
@@ -642,7 +473,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .sketch.pencil {
     width: 88px;
-    top: 2vh;
+    top: 4vh;
   }
   .sketch.kindle {
     width: 56px;
@@ -657,44 +488,52 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketch.squiggle {
     width: 48px;
   }
+  .content.bio {
+    align-self: center;
+    flex: 0 0 70%;
+    max-width: 480px;
+    margin-left: auto;
+    text-align: right;
+  }
 
-  @media only screen and (min-width: 400px) {
-    nav .social {
-      display: flex;
+  @media only screen and (min-width: 320px) {
+    .container {
+      padding-left: 24px;
+      padding-right: 24px;
     }
+    .content.bio {
+      flex: 0 0 80%;
+    }
+  }
+
+  @media only screen and (min-width: 410px) {
     .container {
       padding: 80px 24px;
     }
-    nav .container {
-      padding: 16px 24px;
+    nav .social {
+      display: flex;
     }
     nav .menu {
       display: flex;
     }
-    .hero {
-      display: flex;
-      flex-wrap: wrap;
+    header {
       min-height: 80vh;
       padding: 48px 0;
-      background-color: white;
-      background-image: url(../images/brett-white-half.jpg);
-      background-size: auto 80%;
-      background-position: 0 32vh;
-      background-repeat: no-repeat;
+      background-size: auto 60%;
     }
-    .hero .avatar {
-      display: none;
-    }
-    .hero .container {
+    header .container {
       display: flex;
       margin-top: 0;
       flex: 0 0 100%;
+      padding-top: 48px;
+      padding-bottom: 48px;
     }
     .content.bio {
-      align-self: center;
-      flex: 0 0 60%;
-      margin-left: auto;
-      text-align: right;
+      flex: 0 0 70%;
+    }
+    nav .container {
+      padding-top: 16px;
+      padding-bottom: 16px;
     }
   }
 
@@ -703,13 +542,22 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       max-width: 1200px;
       padding: 120px 48px;
     }
+    header {
+      background-size: auto 80%;
+    }
+    header .container {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    nav .container {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
   }
 
   @media only screen and (min-width: 800px) {
-    .hero {
+    header {
       min-height: 100vh;
-      background-size: auto 100%;
-      background-position: 0 16vh;
       background-attachment: fixed;
     }
     .logo h1 span {
@@ -738,9 +586,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       height: 48px;
       background-size: 20px;
     }
-    .hero .social {
-      display: none;
-    }
     .theme-light {
       background: white;
     }
@@ -768,9 +613,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .content { 
       flex: 0 0 70%;
     }
-    .content.bio {
-      flex: 0 0 70%;
-    }
     .cv {
       margin-top: 0;
     }
@@ -790,7 +632,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex: 0 0 25%;
     }
     footer .container {
-      padding: 48px;
+      padding-top: 48px;
+      padding-bottom: 48px;
     }
   }
 
@@ -801,42 +644,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .listing.awards li {
       flex: 0 0 20%;
     }
-    .hero .reading {
-      width: 50%;
-    }
-  }
-
-  @media only screen and (min-width: 960px) {
-    h1.slogan {
-      font-size: 60px;
-    }
-  }
-
-  @media only screen and (min-width: 1080px) {
     .content.bio {
-      padding-right: 10%;
       text-align: left;
-      flex: 0 0 60%;
+      margin-left: 40%;
     }
   }
 
-  @media (min-width: 920px) and (min-height: 720px) {
+  @media (min-width: 920px) and (min-height: 640px) {
     .sketches {
       display: block;
-    }
-    /* .content.bio {
-      flex: 0 0 60%;
-    } */
-  }
-
-  @media only screen and (min-width: 1160px) {
-    h1.slogan {
-      font-size: 80px;
-    }
-  }
-
-  @media (min-width: 1280px) and (min-height: 960px) {
-    .sketch {
-      transform: scale(1);
     }
   }
