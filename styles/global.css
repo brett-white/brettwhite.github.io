@@ -451,8 +451,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketches {
     display: none;
     position: fixed;
-    bottom: 8vh;
-    left: 20vh;
+    height: 80vh;
+    top: 22%;
+    left: 22vh;
   }
   .sketch {
     position: relative;
@@ -464,15 +465,16 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     position: absolute;
     width: 48px;
     top: 6vh;
-    right: 8vh;
+    right: 4vh;
   }
   .sketch.lightbulb {
     width: 64px;
-    right: 8vh;
+    top: 6vh;
+    right: 6vh;
   }
   .sketch.coffee {
     width: 64px;
-    top: -6vh;
+    top: -4vh;
     right: -10vh;
   }
   .sketch.laptop {
@@ -492,7 +494,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketch.transform {
     width: 104px;
     top: -2vh;
-    left: -4vh;
+    left: -2vh;
   }
   .sketch.squiggle {
     width: 48px;
