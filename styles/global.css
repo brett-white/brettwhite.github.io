@@ -151,6 +151,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: none;
     margin-left: 8px;
   }
+  footer {
+    position: relative;
+  }
   footer .social {
     margin-left: -12px;
   }
@@ -465,7 +468,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .sketch.lightbulb {
     width: 64px;
-    top: 8vh;
     right: 8vh;
   }
   .sketch.coffee {
