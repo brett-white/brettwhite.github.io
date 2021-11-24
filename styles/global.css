@@ -451,8 +451,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketches {
     display: none;
     position: fixed;
-    height: 80vh;
-    top: 22%;
+    top: 16%;
     left: 22vh;
   }
   .sketch {
