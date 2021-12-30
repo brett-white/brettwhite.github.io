@@ -273,12 +273,28 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     left: 0;
     width: 100%;
     height: 90vh;
-    background-image: url(../images/brett-white-cropped.jpg);
     background-repeat: no-repeat;
     background-size: auto 40%;
     background-position: left bottom;
     transition: all 300ms ease-out;
+    background-image: url(../images/brett-white-half.jpg);
   }
+  /* header:after {
+    background-image: url(../images/brett-white-pixels.jpg);
+    opacity: 0;
+  }
+  @keyframes pixelate {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  header:after {
+    animation-name: pixelate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  } */
   header .container {
     display: flex;
     margin-top: 0;
