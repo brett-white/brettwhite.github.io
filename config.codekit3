@@ -897,6 +897,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-scary-smart-by-mo-gawdat.jpg": {
+		"ft": 16384,
+		"iS": 32319,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-scary-smart-by-mo-gawdat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-seeing-around-corners-by-rita-mcgrath.jpg": {
 		"ft": 16384,
 		"iS": 32916,
@@ -929,6 +942,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/book-shoe-dog-by-phil-knight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/book-solve-for-happy-by-mo-gawdat.jpg": {
+		"ft": 16384,
+		"iS": 37615,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-solve-for-happy-by-mo-gawdat.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
