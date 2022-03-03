@@ -1561,6 +1561,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/press-financial-mail-20220303.jpg": {
+		"ft": 16384,
+		"iS": 61931,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-financial-mail-20220303.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/press-framer-20161219.jpg": {
 		"ft": 16384,
 		"iS": 36300,
@@ -1645,6 +1658,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/press-tech-financials-20210629.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-ventureburn-20220217.jpg": {
+		"ft": 16384,
+		"iS": 41258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-ventureburn-20220217.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
