@@ -858,6 +858,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-permanent-record-by-edward-snowden.jpg": {
+		"ft": 16384,
+		"iS": 51002,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-permanent-record-by-edward-snowden.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-principles.jpg": {
 		"ft": 16384,
 		"iS": 207817,
