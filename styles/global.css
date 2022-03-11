@@ -46,7 +46,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   h1 {
     font-weight: normal;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 32px;
   }
   h2 {
     font-size: 48px;
@@ -58,11 +58,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   h3 {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 24px;
     /* font-weight: 700; */
   }
   hr {
-    margin: 48px 0 !important;
+    margin: 24px 0 !important;
   }
   ul li {
     margin-left: 24px;
@@ -334,6 +334,85 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     line-height: 32px;
     font-weight: normal;
   }
+  .roles > li {
+    display: block;
+    list-style: none;
+    margin-left: 0;
+  }
+  .roles > li .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .roles > li figure {
+    flex: 0 0 8%;
+    position: relative;
+  }
+  .roles > li figure img {
+    max-width: 72px;
+    /* padding-right: 24px; */
+  }
+  .roles > li figure .thumb {
+    border-width: 4px;
+    box-shadow: none;
+  }
+  .roles > li article {
+    flex: 0 0 92%;
+    padding-left: 24px;
+  }
+  .roles > li + li {
+    margin-top: 24px;
+    border-top: dashed 1px white;
+    padding-top: 24px;
+  }
+  .roles > li ul {
+    margin-top: 24px;
+  }
+  .roles > li ul > li {
+    list-style-type: none;
+    margin-top: 16px;
+    margin-left: 0;
+    padding-left: 24px;
+    position: relative;
+  }
+  .roles > li h3 {
+    font-weight: bold;
+  }
+  .roles > li article > * + * {
+    margin-top: 8px;
+  }
+  .roles > li.sub-role {
+    border-top: none;
+    margin-top: 0;
+  }
+  .roles > li.sub-role figure:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 16px;
+    bottom: -16px;
+    left: 50%;
+    border-left: solid 1px white;
+  }
+  .roles > li.sub-role.last-child figure:before {
+    content: '';
+    display: none;
+  }
+  .roles > li.sub-role figure:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    transform: translateX(-4px);
+    background-color: white;
+  }
+  .roles > li h3 {
+    font-weight: bold;
+    font-size: 16px;
+  }
   article > * {
     display: block;
   }
@@ -463,6 +542,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border: none;
     padding: 0;
     margin: 0;
+  }
+  .listing.awards li:before,
+  .listing.awards li:after {
+    display: none;
   }
   .sketches {
     display: none;

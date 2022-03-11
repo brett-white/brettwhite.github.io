@@ -122,6 +122,14 @@
 		"oAP": "/_ARCHIVE/index-20210725.html",
 		"oF": 0
 		},
+	"/_ARCHIVE/index-2022.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-2022.html",
+		"oF": 0
+		},
 	"/_ARCHIVE/index-24112019.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1209,11 +1217,112 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/logo-itweb.svg": {
+	"/images/logo-bwd.jpg": {
+		"ft": 16384,
+		"iS": 20925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-bwd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-clyral.jpg": {
+		"ft": 16384,
+		"iS": 3530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-clyral.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-fv.jpg": {
+		"ft": 16384,
+		"iS": 3555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-fv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-pexcil.jpg": {
+		"ft": 16384,
+		"iS": 3061,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-pexcil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-pexcil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/logo-itweb.svg",
+		"oAP": "/images/logo-pexcil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/logo-tbwa.jpg": {
+		"ft": 16384,
+		"iS": 3984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-tbwa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-thusa.jpg": {
+		"ft": 16384,
+		"iS": 5200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-thusa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-zapper.jpg": {
+		"ft": 16384,
+		"iS": 4681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-zapper.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-zapper.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-zapper.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1224,26 +1333,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/logo_mono.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/logo_pexcil.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo_pexcil.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/logo_zapper.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo_zapper.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1988,6 +2077,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/index copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index copy.html",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
