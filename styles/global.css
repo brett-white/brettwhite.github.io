@@ -339,12 +339,15 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     list-style: none;
     margin-left: 0;
   }
-  .roles > li a {
-    font-weight: normal;
+  .roles > li h1 {
+    font-weight: bold;
   }
   .roles > li h3 {
     font-weight: bold;
     font-size: 16px;
+  }
+  .roles > li p a {
+    font-weight: normal;
   }
   .roles > li .flex-row {
     display: flex;
