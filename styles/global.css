@@ -321,7 +321,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   header .bio > * + * {
     margin-top: 24px;
   }
-  header .bio h1 {
+  h1.title-xl {
     font-size: 48px;
     line-height: 120%;
   }
