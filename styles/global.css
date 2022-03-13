@@ -248,6 +248,14 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-position: center;
     background-repeat: no-repeat;
   }
+  .btn-outline {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 16px 48px;
+    border: solid 1px white;
+  }
   .btn-label {
     display: inline-block;
     vertical-align: middle;
@@ -734,6 +742,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .flex-align-left {
       margin-right: auto;
+    }
+    .flex-align-center {
+      margin: auto;
+      text-align: center;
     }
     .listing li {
       flex: 0 0 33%;
