@@ -248,6 +248,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background-position: center;
     background-repeat: no-repeat;
   }
+  .theme-dark .btn-linkedin {
+    background: white;
+    color: black;
+  }
+  .theme-dark .btn-linkedin:before {
+    background-image: url(../images/social-linkedin-black.svg);
+  }
   .btn-outline {
     display: inline-block;
     vertical-align: middle;
@@ -745,6 +752,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .flex-align-center {
       margin: auto;
+      flex: 0 0 100%;
+      align-self: center;
       text-align: center;
     }
     .listing li {
@@ -765,6 +774,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .roles > li article {
       flex: 0 0 92%;
+    }
+    .connect .container {
+      min-height: 40vh;
+    }
+    .connect article {
+      align-self: center;
     }
   }
 
