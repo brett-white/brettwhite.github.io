@@ -4,4 +4,8 @@
       <loc>https://brettwhite.co.za/</loc>
       <priority>1.00</priority>
     </url>
+    <url>
+      <loc>http://brettwhite.co.za/</loc>
+      <priority>1.00</priority>
+    </url>
 </urlset>
