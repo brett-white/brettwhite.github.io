@@ -1541,6 +1541,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/podcast-the-delta-podcast.jpg": {
+		"ft": 16384,
+		"iS": 75515,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-the-delta-podcast.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/podcast-the-prof-g-show.jpg": {
 		"ft": 16384,
 		"iS": 503471,
@@ -2085,6 +2098,58 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/video-africa-tech-week-2021.jpg": {
+		"ft": 16384,
+		"iS": 113588,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-africa-tech-week-2021.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/video-fintech-summit-2021.jpg": {
+		"ft": 16384,
+		"iS": 92374,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-fintech-summit-2021.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/video-im-staying.jpg": {
+		"ft": 16384,
+		"iS": 85119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-im-staying.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/video-insaka-ecommerce-summit-2020.jpg": {
+		"ft": 16384,
+		"iS": 89546,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-insaka-ecommerce-summit-2020.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/index.html": {
 		"cB": 0,
