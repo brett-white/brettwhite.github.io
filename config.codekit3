@@ -1575,7 +1575,7 @@
 		"oAP": "/images/press-african-retail-20210222.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1588,7 +1588,7 @@
 		"oAP": "/images/press-bizcomminity-20210706.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1614,7 +1614,7 @@
 		"oAP": "/images/press-bizcommunity-20210211.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1627,7 +1627,7 @@
 		"oAP": "/images/press-bizcommunity-20210310.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1640,7 +1640,7 @@
 		"oAP": "/images/press-bizcommunity-20210803.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1653,7 +1653,20 @@
 		"oAP": "/images/press-business-insider-20201003.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-cbn-20220330.jpg": {
+		"ft": 16384,
+		"iS": 66768,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-cbn-20220330.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1666,7 +1679,7 @@
 		"oAP": "/images/press-clickatell-20200812.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1679,7 +1692,7 @@
 		"oAP": "/images/press-clickatell-20200819.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1692,7 +1705,7 @@
 		"oAP": "/images/press-financial-mail-20220303.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1705,7 +1718,20 @@
 		"oAP": "/images/press-framer-20161219.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-gadget-31032022.jpg": {
+		"ft": 16384,
+		"iS": 63985,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-gadget-31032022.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1718,7 +1744,7 @@
 		"oAP": "/images/press-hypertext-20201008.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1731,7 +1757,7 @@
 		"oAP": "/images/press-hypertext-20210209.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1744,7 +1770,7 @@
 		"oAP": "/images/press-iol-20201020.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1757,7 +1783,7 @@
 		"oAP": "/images/press-it-web-20200615.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1770,7 +1796,7 @@
 		"oAP": "/images/press-it-web-20210601.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1783,7 +1809,7 @@
 		"oAP": "/images/press-tech-financials-20210629.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1796,7 +1822,7 @@
 		"oAP": "/images/press-ventureburn-20220217.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
