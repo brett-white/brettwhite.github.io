@@ -1284,6 +1284,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/podcast-capetalk-breakfast-20220405.jpg": {
+		"ft": 16384,
+		"iS": 30566,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/podcast-capetalk-breakfast-20220405.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/podcast-design-details.jpg": {
 		"ft": 16384,
 		"iS": 297682,
