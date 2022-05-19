@@ -2076,6 +2076,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/video-stitch-linkpay-2022.jpg": {
+		"ft": 16384,
+		"iS": 27120,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/video-stitch-linkpay-2022.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
