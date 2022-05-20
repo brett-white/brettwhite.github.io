@@ -98,16 +98,21 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding-bottom: 8px;
   }
   .logo {
-    float: left;
+    display: flex;
+  }
+  .logo h1 {
+    display: block;
+    align-self: center;
   }
   .logo h1 span {
+    display: block;
+    float: left;
     font-weight: 700;
     font-size: 14px;
-    line-height: 20px;
-    min-width: 32px;
-    text-align: center;
+    line-height: 24px;
+    margin-right: 4px;
   }
-  .logo h1 > span {
+  .logo h1.logo-bordered > span {
     display: block;
     float: left;
     padding: 4px 8px;
@@ -122,6 +127,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .logo .hide {
     display: none;
+  }
+  .ic-white {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: black solid 4px;
   }
   nav .menu {
     display: none;
@@ -690,13 +702,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .logo h1 span {
       font-size: 24px;
-      line-height: 32px;
+      /* line-height: 32px; */
       text-align: left;
       min-width: auto;
     }
     .logo .hide {
       display: block;
-      float: right;
+      /* float: right; */
     }
     nav .container {
       padding: 16px 48px;
