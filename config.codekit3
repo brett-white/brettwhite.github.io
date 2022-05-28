@@ -575,6 +575,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-build-by-tony-fadell.jpeg": {
+		"ft": 16384,
+		"iS": 50090,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-build-by-tony-fadell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-creativity-inc.jpg": {
 		"ft": 16384,
 		"iS": 185160,
