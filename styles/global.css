@@ -286,7 +286,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     z-index: 10;
     width: 100%;
     color: black;
-    height: 90vh;
+    min-height: 90vh;
     padding: 48px 0;
   }
   header:before {
@@ -327,6 +327,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 64px;
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+  header .container:after {
+    content: '';
+    display: table;
+    clear: both;
   }
   header .bio > * + * {
     margin-top: 24px;
@@ -689,7 +694,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
 
   @media only screen and (min-width: 800px) {
     header {
-      height: 100vh;
+      min-height: 100vh;
     }
     header:before {
       height: 100vh;
