@@ -94,8 +94,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
   }
   .logo {
     display: flex;
@@ -641,6 +639,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .content.bio {
       flex: 0 0 80%;
     }
+    nav .container {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    nav .menu {
+      display: flex;
+    }
   }
 
   @media only screen and (min-width: 410px) {
@@ -648,9 +653,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding: 80px 24px;
     }
     nav .social {
-      display: flex;
-    }
-    nav .menu {
       display: flex;
     }
     header {
@@ -669,10 +671,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .content.bio {
       flex: 0 0 70%;
     }
-    nav .container {
-      padding-top: 16px;
-      padding-bottom: 16px;
-    }
   }
 
   @media only screen and (min-width: 560px) {
@@ -686,10 +684,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     header .container {
       padding-top: 80px;
       padding-bottom: 80px;
-    }
-    nav .container {
-      padding-top: 16px;
-      padding-bottom: 16px;
     }
   }
 
