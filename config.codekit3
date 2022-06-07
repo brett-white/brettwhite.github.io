@@ -575,15 +575,15 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/book-build-by-tony-fadell.jpeg": {
+	"/images/book-build-by-tony-fadell.jpg": {
 		"ft": 16384,
-		"iS": 50090,
+		"iS": 33833,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/book-build-by-tony-fadell.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75

@@ -541,9 +541,16 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 0;
   }
   .thumb {
+    filter: saturate(0);
+    transition: all 0.5s ease-out;
     border-radius: 8px;
     border: solid 8px white;
     box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+  }
+  .thumb:hover {
+    filter: saturate(1);
+    box-shadow: 0px 16px 32px rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   .thumb img {
     width: 100%;
@@ -731,15 +738,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .theme-dark {
       background: black;
     }
-    .thumb {
-      filter: saturate(0);
-      transition: all 0.5s ease-out;
-    }
     .thumb:hover {
-      filter: saturate(1);
       transform: scale(1.1);
-      box-shadow: 0px 16px 32px rgba(0,0,0,0.2);
-      cursor: pointer;
     }
     .flex-row {
       display: flex;
