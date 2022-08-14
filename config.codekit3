@@ -114,6 +114,14 @@
 		"oAP": "/_ARCHIVE/index copy.html",
 		"oF": 0
 		},
+	"/_ARCHIVE/index-14082022.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ARCHIVE/index-14082022.html",
+		"oF": 0
+		},
 	"/_ARCHIVE/index-16052020.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1255,12 +1263,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/og-thumbnail-brettwhite.jpg": {
+	"/images/og-thumbnail-brett-white-icon.jpg": {
 		"ft": 16384,
-		"iS": 74899,
+		"iS": 6841,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/og-thumbnail-brettwhite.jpg",
+		"oAP": "/images/og-thumbnail-brett-white-icon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/og-thumbnail-brett-white.jpg": {
+		"ft": 16384,
+		"iS": 26644,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/og-thumbnail-brett-white.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/og-thumbnail-brettwhite-screenshot.jpg": {
+		"ft": 16384,
+		"iS": 59239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/og-thumbnail-brettwhite-screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
