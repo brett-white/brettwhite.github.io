@@ -337,7 +337,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
   }
   h1.title-xl {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 120%;
   }
   header .bio h1 span {
@@ -696,6 +696,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     header .container {
       padding-top: 80px;
       padding-bottom: 80px;
+    }
+    h1.title-xl {
+      font-size: 48px;
     }
   }
 
