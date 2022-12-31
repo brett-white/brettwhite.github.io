@@ -812,6 +812,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-pour-your-heart-into-it-by-howard-schultz.jpg": {
+		"ft": 16384,
+		"iS": 53715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-pour-your-heart-into-it-by-howard-schultz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-principles.jpg": {
 		"ft": 16384,
 		"iS": 207817,
@@ -1169,6 +1182,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo-clickatell.jpg": {
+		"ft": 16384,
+		"iS": 4810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-clickatell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
