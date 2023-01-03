@@ -354,9 +354,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .cv {
     margin: 48px auto;
   }
-  .cv h1.large {
-    font-size: 48px;
-    line-height: 120%;
+  .cv h1 {
     font-weight: bold;
   }
   .cv h2 {
@@ -708,6 +706,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding-top: 80px;
       padding-bottom: 80px;
     }
+    h1.large,
     h1.title-xl {
       font-size: 48px;
     }
