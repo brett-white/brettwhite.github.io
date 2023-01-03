@@ -441,7 +441,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: none;
   }
   .roles > li.sub-role.sub-contract figure:before {
-    border-left: dashed 1px white;
+    border-left: solid 1px white;
   }
   .roles > li.sub-role.parent {
     border-top: dashed 1px white;
@@ -604,6 +604,25 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .listing.awards li:after {
     display: none;
   }
+  .awards {
+    margin: 0;
+  }
+  .awards li article {
+    padding: 0 16px;
+    position: relative;
+    border-left: solid 1px white;
+    margin-top: 8px;
+  }
+  /* .awards li article:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 2px;
+    background: white;
+  } */
   .sketches {
     display: none;
     position: fixed;
