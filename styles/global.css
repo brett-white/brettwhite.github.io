@@ -363,9 +363,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   section {
     width: 100%;
   }
-  .cv {
+  /* .cv {
     margin: 48px auto 0;
-  }
+  } */
   .cv h1 {
     font-weight: bold;
   }
@@ -378,6 +378,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: block;
     list-style: none;
     margin-left: 0;
+    border-top: dashed 1px white;
+    padding-top: 24px;
   }
   .roles > li h1 {
     font-weight: bold;
@@ -406,8 +408,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .roles > li + li {
     margin-top: 24px;
-    border-top: dashed 1px white;
-    padding-top: 24px;
   }
   .roles > li ul {
     margin-top: 24px;
@@ -465,6 +465,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .roles > li.sub-role.parent figure:after,
   .roles > li.sub-role.sub-contract figure:after {
     display: none;
+  }
+  .roles > li.latest-role {
+    border-top: none;
   }
   article > * {
     display: block;
@@ -689,10 +692,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding-left: 24px;
       padding-right: 24px;
     }
-    #resume .container:before {
-      left: 24px;
-      right: 24px;
-    }
     .content.bio {
       flex: 0 0 80%;
     }
@@ -734,10 +733,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .container {
       max-width: 1200px;
       padding: 120px 48px;
-    }
-    #resume .container:before {
-      left: 48px;
-      right: 48px;
     }
     header:before {
       background-size: auto 80%;
@@ -841,6 +836,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .roles > li article {
       flex: 0 0 92%;
+    }
+    .roles > li.latest-role {
+      border-top: dashed 1px white;
     }
     .connect .container {
       min-height: 40vh;
