@@ -147,12 +147,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   nav .menu li a {
     display: block;
     padding: 8px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     transition: all 300ms ease-out;
-  }
-  nav .menu li a:hover {
-    transform: scale(1.1);
   }
   .social {
     font-size: 0;
@@ -735,7 +732,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     nav .menu li a {
       padding: 16px;
+      font-size: 14px;
       margin-left: 0;
+    }
+    nav .menu li a:hover {
+      transform: scale(1.1);
     }
     nav .social {
       margin-left: 16px;
