@@ -434,7 +434,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     display: none;
   }
   .roles > li.sub-role.sub-contract figure:before {
-    border-left: dashed;
+    border-left: dashed 1px white;
   }
   .roles > li.sub-role.sub-contract.first-child {
     border-top: dashed 1px white;
