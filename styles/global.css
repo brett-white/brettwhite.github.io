@@ -450,6 +450,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     transform: translateX(-4px);
     background-color: white;
   }
+  .roles > li.sub-role.first-child figure:after,
   .roles > li.sub-role.sub-contract figure:after {
     display: none;
   }
