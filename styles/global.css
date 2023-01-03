@@ -76,6 +76,18 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin: 0 auto;
     padding: 16px;
   }
+  #resume .container {
+    position: relative;
+  }
+  #resume .container:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 24px;
+    right: 24px;
+    border-top: dashed 1px white;
+  }
   main .container {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -349,7 +361,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 100%;
   }
   .cv {
-    margin: 48px auto;
+    margin: 48px auto 0;
   }
   .cv h1 {
     font-weight: bold;
@@ -655,6 +667,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       padding-left: 24px;
       padding-right: 24px;
     }
+    #resume .container:before {
+      left: 24px;
+      right: 24px;
+    }
     .content.bio {
       flex: 0 0 80%;
     }
@@ -696,6 +712,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .container {
       max-width: 1200px;
       padding: 120px 48px;
+    }
+    #resume .container:before {
+      left: 48px;
+      right: 48px;
     }
     header:before {
       background-size: auto 80%;
