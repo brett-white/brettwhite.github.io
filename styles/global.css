@@ -44,7 +44,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   /* END RESET */
   h1 {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 24px;
     line-height: 32px;
   }
