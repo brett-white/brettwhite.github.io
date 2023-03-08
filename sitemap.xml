@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>https://brettwhite.co.za/</loc>
+      <loc>https://brettwhite.me/</loc>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>http://brettwhite.co.za/</loc>
+      <loc>http://brettwhite.me/</loc>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>https://www.brettwhite.co.za/</loc>
+      <loc>https://www.brettwhite.me/</loc>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>http://www.brettwhite.co.za/</loc>
+      <loc>http://www.brettwhite.me/</loc>
       <priority>1.00</priority>
     </url>
 </urlset>
