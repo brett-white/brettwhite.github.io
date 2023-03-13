@@ -4260,7 +4260,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "_cache,cache,/_EDIT,.idea,log,_logs,logs,node_modules,/storage/framework/sessions",
+	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,.idea,/_EDIT,_cache,cache,/_ARCHIVE",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
