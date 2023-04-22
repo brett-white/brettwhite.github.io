@@ -1530,6 +1530,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/press-daily-maverick-20230411.jpg": {
+		"ft": 16384,
+		"iS": 33118,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-daily-maverick-20230411.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/press-financial-mail-20220303.jpg": {
 		"ft": 16384,
 		"iS": 61931,
@@ -1643,6 +1656,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/press-it-web-20230320.jpg": {
+		"ft": 16384,
+		"iS": 71472,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/press-it-web-20230320.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
