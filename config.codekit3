@@ -2303,8 +2303,8 @@
 	"creationDate": 549828120,
 	"displayValue": "brettwhite.github.io",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-gavin",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets-cafe",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3710,7 +3710,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://brettwhite:8888/",
+	"externalServerAddress": "http://brettwhite.localhost:8888/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
