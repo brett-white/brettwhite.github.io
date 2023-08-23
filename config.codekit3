@@ -2274,6 +2274,14 @@
 		"oAP": "/sitemap.xml",
 		"oF": 0
 		},
+	"/splash/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/splash/index.html",
+		"oF": 0
+		},
 	"/styles/global-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2291,6 +2299,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/global-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/splash.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/splash-min.css",
 		"oF": 0,
 		"oS": 3
 		}

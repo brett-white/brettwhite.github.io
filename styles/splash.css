@@ -1,0 +1,168 @@
+/* START RESET */
+html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4, h5, h6, p, br, table, th, tr, td, img, code, dl, dt, dd, ol, ul, li, fieldset, form, label {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  html {
+    background: white;
+  }
+  body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: white;
+    color: #000;
+    fill: #000;
+  }
+  * {
+    color: inherit;
+    fill: inherit;
+  }
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  img, svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  /* END RESET */
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  h2 span {
+    display: inline-block;
+    position: relative;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+    /* font-weight: 700; */
+  }
+  hr {
+    margin: 24px 0 !important;
+  }
+  ul li {
+    margin-left: 24px;
+  }
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo h1 {
+    display: block;
+    align-self: center;
+  }
+  .logo h1 span {
+    display: block;
+    float: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 4px;
+  }
+  .ic-white {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: #000 solid 4px;
+  }
+  .btn-linkedin {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    line-height: 0;
+  }
+  .btn-linkedin:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    background-image: url(../images/social-linkedin-white.svg);
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .btn-label {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  header {
+    display: flex;
+    flex-wrap: row wrap;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    color: #000;
+    min-height: 100vh;
+  }
+  header .container {
+    display: flex;
+    margin-top: 0;
+    flex: 0 0 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  header .container:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .bio {
+    text-align: center;
+  }
+  .bio > * + * {
+    margin-top: 24px;
+  }
+  .bio h1 span {
+    display: inline-block;
+    position: relative;
+  }
+  .bio p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  section {
+    width: 100%;
+  }
+  .content.bio {
+    align-self: center;
+    max-width: 480px;
+    margin-left: auto;
+  }
+  .copyright {
+    margin-top: 24px;
+    font-size: 12px;
+  }
