@@ -384,6 +384,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .roles > li h1 {
     font-weight: bold;
   }
+  .roles > li h1 a {
+    transition: opacity 300ms ease-in-out;
+  }
+  .roles > li h1 a:hover {
+    opacity: 0.5;
+  }
   .roles > li h3 {
     font-weight: bold;
     font-size: 16px;

@@ -577,6 +577,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-losing-the-signal-by-jacquie-mcnish-and-sean-silcoff.jpg": {
+		"ft": 16384,
+		"iS": 59961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-losing-the-signal-by-jacquie-mcnish-and-sean-silcoff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-lost-connections.jpg": {
 		"ft": 16384,
 		"iS": 846599,
@@ -2299,6 +2312,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/global-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/splash-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/splash-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
