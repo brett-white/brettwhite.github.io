@@ -473,6 +473,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/book-elon-musk-by-walter-isaacson.jpg": {
+		"ft": 16384,
+		"iS": 180837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/book-elon-musk-by-walter-isaacson.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/book-elon-musk.jpg": {
 		"ft": 16384,
 		"iS": 53404,
