@@ -383,6 +383,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border-top: dashed 1px white;
     padding-top: 24px;
   }
+  .roles .thumb {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+  }
   .roles > li h1 {
     font-weight: bold;
   }
