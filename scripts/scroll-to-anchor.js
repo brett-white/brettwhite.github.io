@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function() {
+// document.addEventListener("DOMContentLoaded", function () {
   const offset = 80; // Your desired offset value
 
   // Detect if smooth scroll behavior is supported
@@ -29,4 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-});
+// });
+};
