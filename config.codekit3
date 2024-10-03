@@ -25,6 +25,32 @@
       "oAP" : "\/CNAME",
       "oF" : 0
     },
+    "\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 186,
+      "oA" : 0,
+      "oAP" : "\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 210,
+      "oA" : 0,
+      "oAP" : "\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -32,6 +58,29 @@
       "oA" : 0,
       "oAP" : "\/favicon.ico",
       "oF" : 0
+    },
+    "\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 210,
+      "oA" : 0,
+      "oAP" : "\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/favicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/favicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/images\/award_awwwards.svg" : {
       "ft" : 2097152,
