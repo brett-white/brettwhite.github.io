@@ -1,5 +1,5 @@
 window.onload = () => {
-  const offset = 80; // Adjust this value as per your design requirements
+  const offset = 78; // Adjust this value as per your design requirements
   const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
 
   // Select all anchor links with href starting with #
