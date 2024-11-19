@@ -2398,6 +2398,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/scripts\/scroll-to-anchor-v1-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/scroll-to-anchor-v1-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/scripts\/scroll-to-anchor-v1.js" : {
       "bF" : 0,
       "ft" : 64,

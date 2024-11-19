@@ -584,6 +584,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     border-radius: 8px;
     border: solid 8px white;
     box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+    opacity: 0;
   }
   .thumb:hover {
     filter: saturate(1);
@@ -594,10 +595,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 100%;
     height: auto;
   }
-  .lazy {
-    opacity: 0;
-  }
-  .lazy.loaded {
+  .thumb.lazyloaded {
     opacity: 1;
   }
   .media {
@@ -638,6 +636,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     /* border-left: solid 1px white; */
     margin-top: 8px;
     margin-right: 16px;
+  }
+  .award {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+  }
+  .award.lazyloaded {
+    opacity: 1;
   }
   /* .awards li article:before {
     content: '';
