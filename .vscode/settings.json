@@ -1,0 +1,4 @@
+{
+    "notebook.defaultFormatter": "openai.openai-chatgpt-adhoc",
+    "editor.defaultFormatter": "openai.openai-chatgpt-adhoc"
+}
