@@ -447,11 +447,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     font-weight: bold;
   }
   .roles > li article > * + * {
-    margin-top: 8px;
+    margin-top: 0;
   }
   .roles > li.sub-role {
     border-top: none;
     margin-top: 0;
+    padding-top: 16px;
   }
   .roles > li.sub-role figure:before {
     content: '';
@@ -627,6 +628,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   ul.awards.listing {
     border: none;
     padding: 0;
+    margin-top: 8px;
   }
   .listing.awards li {
     flex: 0 0 33%;
