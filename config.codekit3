@@ -1032,6 +1032,73 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/brett-glitch-lo-res.gif" : {
+      "ft" : 4194304,
+      "iS" : 227471,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch-lo-res.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/images\/brett-glitch.gif" : {
+      "ft" : 4194304,
+      "iS" : 2516790,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/images\/brett-glitch.webm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch.webm",
+      "oF" : 0
+    },
+    "\/images\/brett-white-half-halftone.jpg" : {
+      "ft" : 16384,
+      "iS" : 668212,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-white-half-halftone.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/brett-white-half-mosaic.jpg" : {
+      "ft" : 16384,
+      "iS" : 44225,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-white-half-mosaic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/brett-white-half-pixelate.jpg" : {
+      "ft" : 16384,
+      "iS" : 19033,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-white-half-pixelate.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/brett-white-half.jpg" : {
       "ft" : 16384,
       "iS" : 26200,
