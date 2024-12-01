@@ -325,9 +325,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 54%;
-    max-width: 380px;
-    height: auto;
+    width: auto;
+    height: 50%;
+    max-height: 800px;
+    transition: all 300ms ease-in-out;
   }
   /* header:after {
     background-image: url(../images/brett-white-pixels.jpg);
@@ -677,52 +678,55 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   .sketches {
     display: block;
     position: fixed;
-    top: 16%;
-    left: 22vh;
+    width: 240px;
+    height: 400px;
+    bottom: 24%;
+    left: 20vh;
     visibility: hidden;
     opacity: 0;
+    z-index: 1;
     transition: all 300ms ease-in-out;
   }
   .sketch {
-    position: relative;
+    position: absolute;
     height: auto;
     transform: scale(0.75);
     transition: all 300ms ease-out;
   }
   .sketch.pop {
-    position: absolute;
     width: 48px;
-    top: 6vh;
-    right: 4vh;
+    top: 0;
+    left: 80px;
   }
   .sketch.lightbulb {
     width: 64px;
-    top: 6vh;
-    right: 6vh;
-  }
-  .sketch.coffee {
-    width: 64px;
-    top: -4vh;
-    right: -10vh;
-  }
-  .sketch.laptop {
-    width: 112px;
-    top: -8vh;
-    right: 2vh;
+    top: 0;
+    left: 0;
   }
   .sketch.pencil {
     width: 88px;
-    top: 4vh;
+    left: 40px;
+    top: 64px;
+  }
+  .sketch.laptop {
+    width: 112px;
+    top: 160px;
+    left: 16px;
+  }
+  .sketch.coffee {
+    width: 64px;
+    top: 72px;
+    left: 132px;
   }
   .sketch.kindle {
     width: 56px;
-    top: -20vh;
-    right: -10vh;
+    top: 240px;
+    left: 112px;
   }
   .sketch.transform {
     width: 104px;
-    top: -2vh;
-    left: -2vh;
+    bottom: 0;
+    left: 0;
   }
   .sketch.squiggle {
     width: 48px;
@@ -905,11 +909,12 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       margin-left: 30%;
     }
     .animated-bg video {
-      width: 36%;
+      /* width: 36%; */
+      height: 80%;
     }
   }
 
-  @media (min-width: 1140px) and (min-height: 720px) {
+  @media (min-width: 1280px) and (min-height: 720px) {
     .sketches {
       visibility: visible;
       opacity: 1;
