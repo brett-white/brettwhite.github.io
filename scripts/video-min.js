@@ -1,1 +1,1 @@
-document.addEventListener("visibilitychange",(()=>{const e=document.querySelector("video");"visible"===document.visibilityState&&e&&(e.load(),e.play())}));
+window.onload=()=>{document.addEventListener("visibilitychange",(()=>{const e=document.querySelector("video");"visible"===document.visibilityState&&e&&(e.load(),e.play())}))};
