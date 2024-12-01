@@ -323,7 +323,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   .animated-bg video {
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
     width: auto;
     height: 80vw;
