@@ -43,9 +43,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     background: black;
     color: white;
   }
-  .theme-dark-grey {
+  .theme-dark.grey {
     background: #222;
-    color: white;
   }
   /* END RESET */
   h1 {
