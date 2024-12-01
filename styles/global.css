@@ -909,7 +909,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media (min-width: 1140px) and (min-height: 640px) {
+  @media (min-width: 1140px) and (min-height: 720px) {
     .sketches {
       visibility: visible;
       opacity: 1;
