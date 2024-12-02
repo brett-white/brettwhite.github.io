@@ -1,14 +1,11 @@
 window.onload = () => {
+  const navElement = document.querySelector('nav');
+  const offset = navElement ? navElement.offsetHeight : 60; // Dynamic height with fallback
   const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
 
-  // Select all anchor links with href starting with #
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener("click", event => {
       event.preventDefault(); // Prevent default anchor behavior
-      
-      // const navElement = document.querySelector('nav');
-      // const offset = navElement.offsetHeight;
-      const offset = 60;
 
       const targetElement = document.querySelector(link.getAttribute("href"));
       if (targetElement) {
@@ -18,7 +15,8 @@ window.onload = () => {
           top: targetPosition,
           behavior: supportsSmoothScroll ? "smooth" : "auto"
         });
-        // console.log(offset);
+      } else {
+        console.warn(`Element not found for anchor: ${link.getAttribute("href")}`);
       }
     });
   });
