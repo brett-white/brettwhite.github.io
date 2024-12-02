@@ -6,8 +6,9 @@ window.onload = () => {
     link.addEventListener("click", event => {
       event.preventDefault(); // Prevent default anchor behavior
       
-      const navElement = document.querySelector('nav'); // Adjust selector if your nav element has a different tag or class
-      const offset = navElement.offsetHeight;
+      // const navElement = document.querySelector('nav');
+      // const offset = navElement.offsetHeight;
+      const offset = 60;
 
       const targetElement = document.querySelector(link.getAttribute("href"));
       if (targetElement) {
