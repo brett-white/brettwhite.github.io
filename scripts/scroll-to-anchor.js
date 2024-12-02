@@ -30,6 +30,4 @@ window.onload = () => {
       });
     }
   }
-
-  // initSmoothScrolling(offset);
 };
