@@ -308,7 +308,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   }
   /* header:before { */
   .animated-bg {
-    content: '';
     display: block;
     position: fixed;
     z-index: -1;
@@ -316,19 +315,18 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     left: 0;
     width: 100%;
     height: 100vh;
-    /* background-repeat: no-repeat;
-    background-size: auto 40%;
-    background-position: left bottom; */
     transition: all 300ms ease-out;
   }
   .animated-bg video {
     position: absolute;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
     width: auto;
-    height: 80vw;
+    height: 60%;
     max-height: 800px;
     transition: all 300ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
   }
   /* header:after {
     background-image: url(../images/brett-white-pixels.jpg);
@@ -756,7 +754,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media only screen and (min-width: 410px) {
+  @media only screen and (min-width: 430px) {
     .container {
       padding: 80px 24px;
     }
@@ -775,6 +773,10 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     h1.title-xl {
       font-size: 44px;
+    }
+    .animated-bg video {
+      visibility: visible;
+      opacity: 1;
     }
   }
 
@@ -872,10 +874,6 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .listing.awards li {
       flex: 0 0 25%;
-    }
-    footer .container {
-      /* padding-top: 48px;
-      padding-bottom: 48px; */
     }
     .roles > li figure {
       flex: 0 0 8%;
