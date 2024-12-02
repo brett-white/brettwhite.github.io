@@ -1,18 +1,16 @@
 window.onload = () => {
   const navElement = document.querySelector('nav');
-  const offset = navElement ? navElement.getBoundingClientRect().height : 60; // Fallback offset
+  const offset = navElement ? navElement.getBoundingClientRect().height : 60;
   const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
 
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener("click", event => {
-      event.preventDefault(); // Prevent default anchor behavior
+      event.preventDefault();
 
       const targetElement = document.querySelector(link.getAttribute("href"));
       if (targetElement) {
-        // Calculate the scroll position
         const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
 
-        // Smooth scroll
         window.scrollTo({
           top: targetPosition,
           behavior: supportsSmoothScroll ? "smooth" : "auto"
@@ -28,10 +26,10 @@ window.onload = () => {
 
       window.scrollTo({
         top: targetPosition,
-        behavior: "auto" // Instant scroll for initial load
+        behavior: supportsSmoothScroll ? "smooth" : "auto"
       });
     }
   }
 
-  initSmoothScrolling(offset);
+  // initSmoothScrolling(offset);
 };
