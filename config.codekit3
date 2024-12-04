@@ -2503,6 +2503,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/scripts\/scroll-to-anchor-v2-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/scroll-to-anchor-v2-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/scripts\/scroll-to-anchor-v2.js" : {
       "bF" : 0,
       "ft" : 64,
