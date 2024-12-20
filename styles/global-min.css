@@ -687,8 +687,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     position: absolute;
     width: 240px;
     height: 400px;
-    top: 6%;
-    right: -4%;
+    bottom: 32%;
+    left: 40%;
     visibility: hidden;
     opacity: 0;
     z-index: 1;
@@ -924,7 +924,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media (min-width: 1280px) and (min-height: 720px) {
+  @media (min-width: 1240px) and (min-height: 720px) {
     .sketches {
       visibility: visible;
       opacity: 1;

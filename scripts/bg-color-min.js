@@ -1,0 +1,1 @@
+window.onload=()=>{function e(){t.forEach((e=>{e&&(e.style.backgroundColor=o[r])})),r=(r+1)%o.length}const o=["#FFFFFF","#D8BFD8","#FFC0CB","#B0E0E6","#E6E6FA","#ADD8E6"],n=6e3,t=[document.querySelector("header"),document.querySelector("nav")];let r=0;t.forEach((e=>{e&&(e.style.transition="background-color 6s ease-in-out")})),setInterval(e,n),e()};
