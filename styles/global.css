@@ -326,7 +326,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     transition: all 300ms ease-out;
     mix-blend-mode: multiply;
   }
-  .animated-bg video {
+  .animated-bg video,
+  .animated-bg .video {
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -761,7 +762,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     nav .menu {
       display: flex;
     }
-    .animated-bg video {
+    .animated-bg video,
+    .animated-bg .video {
       visibility: visible;
       opacity: 1;
     }
