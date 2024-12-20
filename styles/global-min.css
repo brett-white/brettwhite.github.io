@@ -687,10 +687,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     position: absolute;
     width: 240px;
     height: 400px;
-    /* bottom: 32%;
-    left: 40%; */
-    top: 6%;
-    right: -4%;
+    bottom: 32%;
+    left: 40%;
     visibility: hidden;
     opacity: 0;
     z-index: 1;
