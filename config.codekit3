@@ -1037,6 +1037,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/brett-glitch-backup.webm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch-backup.webm",
+      "oF" : 0
+    },
     "\/images\/brett-glitch-lo-res.gif" : {
       "ft" : 4194304,
       "iS" : 227471,
@@ -1046,6 +1054,30 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "rq" : 75
+    },
+    "\/images\/brett-glitch-optimized-2.webm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch-optimized-2.webm",
+      "oF" : 0
+    },
+    "\/images\/brett-glitch-optimized.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch-optimized.mp4",
+      "oF" : 0
+    },
+    "\/images\/brett-glitch-optimized.webm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-glitch-optimized.webm",
+      "oF" : 0
     },
     "\/images\/brett-glitch.gif" : {
       "ft" : 4194304,
@@ -2369,6 +2401,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index-20241220.html",
+      "oF" : 0
+    },
+    "\/index-webm-20241223.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index-webm-20241223.html",
       "oF" : 0
     },
     "\/index.html" : {
