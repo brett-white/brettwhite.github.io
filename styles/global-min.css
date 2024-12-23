@@ -795,6 +795,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     header .container {
       min-height: 100vh;
       margin-top: 0;
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
   }
 
@@ -806,9 +808,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     nav .social {
       display: flex;
     }
-    header .container {
+    /* header .container {
       margin-top: 80px;
-    }
+    } */
   }
 
   @media only screen and (min-width: 800px) {
