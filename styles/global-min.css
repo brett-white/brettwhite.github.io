@@ -372,7 +372,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
   }
   h1.title-xl {
-    font-size: 36px;
+    font-size: 44px;
     line-height: 120%;
   }
   header .bio h1 span {
@@ -782,12 +782,19 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex: 0 0 100%;
       padding-top: 48px;
       padding-bottom: 48px;
+      margin-top: 64px;
+      min-height: auto;
     }
     .content.bio {
       flex: 0 0 70%;
     }
-    h1.title-xl {
-      font-size: 44px;
+  }
+
+
+  @media only screen and (min-width: 400px) and (min-height: 720px) {
+    header .container {
+      min-height: 100vh;
+      margin-top: 0;
     }
   }
 
@@ -800,12 +807,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       display: flex;
     }
     header .container {
-      padding-top: 80px;
-      padding-bottom: 80px;
-    }
-    h1.large,
-    h1.title-xl {
-      font-size: 56px;
+      margin-top: 80px;
     }
   }
 
@@ -905,12 +907,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     .connect article {
       align-self: center;
     }
-    h1.title-xl {
-      font-size: 72px;
-    }
   }
 
-  @media only screen and (min-width: 880px) {
+  @media only screen and (min-width: 880px) and (min-height: 720px) {
     .listing li {
       flex: 0 0 25%;
     }
@@ -923,6 +922,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
     .animated-bg {
       height: 80vh;
+    }
+    h1.title-xl {
+      font-size: 72px;
     }
   }
 
