@@ -286,6 +286,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 24px;
     height: 24px;
   }
+  .btn,
   .btn-linkedin {
     display: inline-block;
     background: black;
