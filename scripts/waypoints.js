@@ -21,6 +21,15 @@ window.addEventListener('load', function () {
             }
         });
 
+        // Update section classes
+        sections.forEach((section, index) => {
+            if (index === activeIndex) {
+                section.classList.add('active');
+            } else {
+                section.classList.remove('active');
+            }
+        });
+
         // Update nav link states
         navLinks.forEach((link, index) => {
             if (index === activeIndex) {
