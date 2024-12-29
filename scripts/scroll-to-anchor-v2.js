@@ -1,6 +1,6 @@
 window.onload = () => {
   const navElement = document.querySelector('nav');
-  const offset = navElement ? navElement.getBoundingClientRect().height : 60;
+  const offset = navElement ? navElement.getBoundingClientRect().height * 0.96 : 60;
   const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
 
   // Function to handle scrolling to a target element
