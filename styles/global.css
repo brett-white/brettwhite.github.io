@@ -335,7 +335,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 100%;
     color: black;
     min-height: 90vh;
-    padding: 48px 0;
+    padding: 0;
     overflow: hidden;
   }
   /* header:before { */
@@ -385,7 +385,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 0;
     flex: 0 0 100%;
     min-height: 100vh;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     padding-top: 48px;
     padding-bottom: 48px;
   }
