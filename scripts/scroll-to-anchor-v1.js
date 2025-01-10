@@ -1,34 +1,33 @@
-window.onload = function() {
-// document.addEventListener("DOMContentLoaded", function () {
-  const offset = 80; // Your desired offset value
-
-  // Detect if smooth scroll behavior is supported
+window.onload = () => {
+  const navElement = document.querySelector('nav');
+  const offset = navElement ? navElement.getBoundingClientRect().height : 60;
   const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
 
-  // Select all anchor links with href starting with #
-  const menuLinks = document.querySelectorAll('a[href^="#"]');
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", event => {
+      event.preventDefault();
 
-  menuLinks.forEach(link => {
-    link.addEventListener("click", function (event) {
-      event.preventDefault(); // Prevent default anchor behavior
+      const targetElement = document.querySelector(link.getAttribute("href"));
+      if (targetElement) {
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
 
-      // Get the target section
-      const targetID = this.getAttribute("href");
-      const targetElement = document.querySelector(targetID);
-
-      // Calculate the position to scroll to, considering the offset
-      const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
-
-      // Scroll with smooth behavior if supported, else instant scroll
-      if (supportsSmoothScroll) {
         window.scrollTo({
           top: targetPosition,
-          behavior: "smooth"
+          behavior: supportsSmoothScroll ? "smooth" : "auto"
         });
-      } else {
-        window.scrollTo(0, targetPosition); // Fallback for older mobile browsers
       }
     });
   });
-// });
+
+  if (window.location.hash) {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: supportsSmoothScroll ? "smooth" : "auto"
+      });
+    }
+  }
 };
