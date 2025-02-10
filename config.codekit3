@@ -1105,6 +1105,19 @@
       "oAP" : "\/images\/brett-glitch.webm",
       "oF" : 0
     },
+    "\/images\/brett-white-2025.jpg" : {
+      "ft" : 16384,
+      "iS" : 87220,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/brett-white-2025.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/brett-white-half-halftone.jpg" : {
       "ft" : 16384,
       "iS" : 668212,
