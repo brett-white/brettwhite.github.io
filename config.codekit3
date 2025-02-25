@@ -2552,28 +2552,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/scripts\/global-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/scripts\/global-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/scripts\/global.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/scripts\/global-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/scripts\/lazy-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2614,6 +2592,28 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/scripts\/modernizr-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/scripts\/nav-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/nav-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/scripts\/nav.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/nav-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2680,6 +2680,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/scripts\/scroll-to-anchor-v3-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/scripts\/text-type.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/text-type-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
