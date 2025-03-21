@@ -104,6 +104,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
   #experience .container {
     /* padding-top: 0; */
   }
+  .experience-footer {
+    margin-top: 24px;
+    border-top: 1px dashed white;
+    padding-top: 24px;
+  }
   nav {
     position: fixed;
     left: 0;
@@ -294,6 +299,11 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     padding: 8px 16px;
     border-radius: 8px;
     line-height: 0;
+  }
+  .theme-dark .btn,
+  .theme-dark.grey .btn {
+    background: white;
+    color: black;
   }
   .btn-linkedin:before {
     content: '';
