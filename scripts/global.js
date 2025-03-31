@@ -56,6 +56,12 @@ window.addEventListener('load', () => {
       navLinks.forEach((link, index) => {
         link.classList.toggle('active', index === activeIndex);
       });
+
+      // Add or remove class on body based on "splash" section's active state
+      // const splashSection = document.getElementById('splash');
+      // if (splashSection) {
+      //   document.body.classList.toggle('menu-visible', !splashSection.classList.contains('active'));
+      // }
     };
 
     const throttle = (func, limit) => {
