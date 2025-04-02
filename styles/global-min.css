@@ -458,7 +458,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     margin-top: 24px;
   }
   h1.title-xl {
-    font-size: 44px;
+    font-size: 56px;
     line-height: 120%;
   }
   .hero .bio h1 span {
@@ -1012,10 +1012,13 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media (min-width: 1240px) and (min-height: 720px) {
+  @media only screen and (min-width: 1240px) and (min-height: 720px) {
     .sketches {
       visibility: visible;
       opacity: 1;
+    }
+    h1.title-xl {
+      font-size: 96px;
     }
   }
 
