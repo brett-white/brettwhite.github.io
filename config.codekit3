@@ -2653,6 +2653,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/scripts\/scroll-to-anchor-v1 2.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts\/scroll-to-anchor-v1 2-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/scripts\/scroll-to-anchor-v1-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2682,17 +2693,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/scripts\/scroll-to-anchor-v2-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/scripts\/scroll-to-anchor-v2.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/scripts\/scroll-to-anchor-v2-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2851,6 +2851,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sitemap.xml",
+      "oF" : 0
+    },
+    "\/splash\/index-20230822.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/splash\/index-20230822.html",
       "oF" : 0
     },
     "\/splash\/index.html" : {
