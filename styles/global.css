@@ -404,7 +404,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: auto;
     aspect-ratio: 3/5;
     transition: all 600ms ease-out;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     visibility: hidden;
     opacity: 0;
   }
