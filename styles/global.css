@@ -989,7 +989,8 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
       flex: 0 0 92%;
     }
     .roles > li.latest-role {
-      border-top: dashed 1px white;
+      border-top: none;
+      padding-top: 0;
     }
     .connect .container {
       min-height: 40vh;
