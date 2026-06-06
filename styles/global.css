@@ -399,7 +399,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     z-index: -1;
     bottom: 0;
     left: 0;
-    height: 50vh;
+    height: 40vh;
     /* width: calc(60vh * 60%); */
     width: auto;
     aspect-ratio: 3/5;
@@ -1018,7 +1018,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     }
   }
 
-  @media only screen and (min-width: 1240px) and (min-height: 720px) {
+  @media only screen and (min-width: 1420px) and (min-height: 720px) {
     .sketches {
       visibility: visible;
       opacity: 1;
