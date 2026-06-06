@@ -663,6 +663,9 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     flex-wrap: wrap;
     margin: 0 -16px;
   }
+  .listing.stats {
+    margin: 0;
+  }
   .listing li {
     flex: 0 0 50%;
     list-style: none;
@@ -778,7 +781,7 @@ html, body, div, section, article, header, footer, figure, span, h1, h2, h3, h4,
     width: 240px;
     height: 400px;
     bottom: 32%;
-    left: 40%;
+    left: 60%;
     visibility: hidden;
     opacity: 0;
     z-index: 1;
