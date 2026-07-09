@@ -1,0 +1,13 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="315 0 1050 1050" enable-background="new 315 0 1050 1050" xml:space="preserve">
+<g>
+	<path fill="#808080" d="M1122.3,80.8v-0.3h-80.5V0H638.2v80.5h-81.1v0.3v727.1h80.5v-81.1h81.1v-80.5h-81.1V322.6h81.1v323.2h80.5
+		V322.6h81.1v323.2h80.5V322.6h81.1v323.8h-80.5v80.5h80.5v81.1h80.5L1122.3,80.8L1122.3,80.8z M637.6,242.1V161h0.6h403.7v81.1
+		H637.6z"/>
+	<rect x="799.8" y="646.3" fill="#808080" width="80.5" height="80.5"/>
+	<rect x="638.2" y="807.9" fill="#808080" width="80.5" height="80.5"/>
+	<polygon fill="#808080" points="718.7,968.9 799.8,968.9 799.8,1050 880.2,1050 880.2,968.9 961.3,968.9 961.3,888.4 718.7,888.4 	
+		"/>
+	<rect id="tip" x="961.3" y="807.9" fill="#808080" width="80.5" height="80.5"/>
+</g>
+</svg>

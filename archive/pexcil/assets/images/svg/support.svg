@@ -1,0 +1,5 @@
+<svg version="1.1" id="support" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 300" enable-background="new 0 0 600 300" xml:space="preserve">
+    <path id="nut" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" d="M370,28.8H230L160,150l70,121.2h140L440,150 L370,28.8z"/>
+    <circle fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" cx="300" cy="150" r="56"/>
+</svg>
